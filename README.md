@@ -49,3 +49,13 @@ Die vollständigen bearbeitbaren Projektdateien und die getesteten SQL-Migration
 Die Beetauswahl führt über Kategorie → Kultur → Sorte. Es werden nur die zur gewählten Kategorie passenden Kulturen und deren Sorten angezeigt. Alle Auswahlen stehen alphabetisch; auch die Beetnamen sind natürlich sortiert (Beet 2 vor Beet 10). Beim Aufruf aus einer Pflanze bleiben Kategorie, Kultur und Sorte vorausgewählt. Ein Kategorienwechsel setzt die Kultur- und Sortenauswahl zurück.
 
 Die drei Zahlenkacheln der Übersicht öffnen direkt Pflanzen, Beete und Notizen. Die Pflanzenkachel zeigt den vollständigen Bestand; auch Kacheln mit Zähler 0 bleiben bedienbar. Die Navigation ist per Touch und Tastatur geprüft.
+
+## Vier Jahreszeiten
+
+Die gesamte Oberfläche verwendet das dunkle Garten-Design mit vier Farbwelten: Frühling (Grün), Sommer (Gold/Oliv), Herbst (Kupfer/Erdtöne) und Winter (Eisblau). Anmeldung, Übersicht, Pflanzen, Beete, Notizen, Kontoeinstellungen und Dialoge verwenden dieselben Farbvariablen.
+
+Die Jahreszeit lässt sich über den Knopf in der Kopfzeile oder unter „Familie & Konto“ wechseln. Die Einstellung wird unter einem auf den App-Pfad begrenzten Schlüssel lokal auf diesem Gerät gespeichert. Ohne gespeicherte Wahl wird zunächst die aktuelle Jahreszeit verwendet. Die Gestaltung enthält keine Gartendaten und wird nach einer Abmeldung beibehalten.
+
+Ein Wechsel passt die Farben und die Jahreszeitenmotive direkt an und setzt angefangene Formulare nicht zurück. Aussaatfilter und Datum beziehen sich weiterhin auf den tatsächlichen Monat.
+
+Geprüft: alle vier Designs auf Desktop und Handy, Anmeldung und Dialoge, Tastaturbedienung, Sortenauswahl, unveränderte Formulareingaben, Speicherung über Neuladen/Abmelden sowie die bestehenden 12 Browserabläufe. Gemessene Kontraste für Haupttext, Sekundärtext und primäre Knöpfe liegen in allen vier Varianten über 7:1.
