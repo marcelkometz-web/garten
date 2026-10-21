@@ -32,10 +32,18 @@ Der bereitgestellte Katalogexport wurde in den privaten Familiengarten übernomm
 
 Beschreibungen, Aussaatmonate, Abstände und Pflegehinweise sind übernommen. Zusätzlich enthält jeder importierte Eintrag seine ursprünglichen Kultur- und Sortenangaben in `legacy_data`, die auch im privaten Datenexport enthalten sind. Der Katalog und sein Import-SQL liegen nicht in diesem öffentlichen Repository. Favoriten, Beetzuweisungen und Notizen aus der alten Datenbank waren im Katalogexport nicht enthalten.
 
+## Detailansicht der Pflanzen
+
+Die Detailansicht enthält eine Sortenauswahl, Anbaudaten und farbige Kästen für Gießen, Boden, Dünger und Tipps. Gute und schlechte Nachbarn erscheinen in eigenen grünen und roten Kästen.
+
+Notizen sind je Sorte mit der Familie geteilt und werden automatisch gespeichert. Versionskonflikte werden erkannt; vor dem Ersetzen kann der gespeicherte Text verglichen werden. Fehlgeschlagene Entwürfe bleiben bis zum Abmelden im Arbeitsspeicher erhalten. Die Beetknöpfe sind mit den tatsächlichen Beetzuweisungen verbunden. Beim Teilen werden keine Gartennotizen mitgegeben.
+
 ## Hosting und Wartung
 
 GitHub Pages unterstützt keine eigenen HTTP-Sicherheitsheader. Die Content Security Policy steht deshalb zusätzlich im HTML. `_headers` wird von GitHub Pages nicht ausgewertet; `security-headers.json` ist Metadaten für den optionalen Node-Hostingserver. Für einen Host mit eigener Header-Konfiguration ist `_headers` vorbereitet.
 
 `newgarten` ist für den Pfad `/newgarten/` gebaut. Bei Änderung des Repository-Namens müssen die App-Dateien mit dem passenden Basispfad neu erstellt werden.
 
-Die vollständigen bearbeitbaren Projektdateien und die getesteten SQL-Migrationen wurden separat als `newgarten-projekt.zip` bereitgestellt. Der Build wurde mit 22 automatisierten Prüfungen und Browserprüfungen auf Desktop/Handy kontrolliert; die Familienrechte wurden zusätzlich direkt in Supabase getestet. Ein vollständiger Produktivtest mit einem echten Familienkonto und eingerichtetem Gemini-Schlüssel steht noch aus.
+Die vollständigen bearbeitbaren Projektdateien und die getesteten SQL-Migrationen wurden separat als `newgarten-projekt.zip` bereitgestellt. Der Build wurde mit 30 automatisierten Prüfungen und Browserprüfungen auf Desktop/Handy kontrolliert; die Familienrechte wurden zusätzlich direkt in Supabase getestet. Ein vollständiger Produktivtest mit einem echten Familienkonto und eingerichtetem Gemini-Schlüssel steht noch aus.
+
+Die Beetauswahl ist nach Kultur und Sorte getrennt. Kulturen und die jeweils zugehörigen Sorten stehen alphabetisch; auch die Beetnamen sind natürlich sortiert (Beet 2 vor Beet 10). Beim Aufruf aus einer Pflanze bleiben Kultur und Sorte vorausgewählt.
