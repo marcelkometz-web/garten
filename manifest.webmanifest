@@ -1,0 +1,25 @@
+{
+  "id": "/newgarten/",
+  "name": "Ramonas Garten",
+  "short_name": "Mein Garten",
+  "lang": "de-DE",
+  "start_url": "/newgarten/",
+  "scope": "/newgarten/",
+  "display": "standalone",
+  "background_color": "#f6f5ef",
+  "theme_color": "#254c3c",
+  "icons": [
+    {
+      "src": "/newgarten/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/newgarten/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
