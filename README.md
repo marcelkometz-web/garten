@@ -26,10 +26,16 @@ Eine Person registriert sich, bestätigt ihre E-Mail und legt den gemeinsamen Ga
 
 Alle Familienmitglieder dürfen gemeinsame Gartendaten bearbeiten und löschen. Die Datenbank begrenzt alle Zugriffe auf die aktuelle Familie. Änderungen werden beim Speichern auf Versionskonflikte geprüft. Der Service Worker speichert nur öffentliche Programmdateien.
 
+## Übernommener Katalog
+
+Der bereitgestellte Katalogexport wurde in den privaten Familiengarten übernommen: 53 Kulturgruppen mit 363 Sorten und Pflegeeinträgen. Jede Sorte ist einzeln bearbeitbar und einem Beet zuordenbar. „Garten-Praxis“ enthält Kompost, Jauchen und andere Pflegethemen.
+
+Beschreibungen, Aussaatmonate, Abstände und Pflegehinweise sind übernommen. Zusätzlich enthält jeder importierte Eintrag seine ursprünglichen Kultur- und Sortenangaben in `legacy_data`, die auch im privaten Datenexport enthalten sind. Der Katalog und sein Import-SQL liegen nicht in diesem öffentlichen Repository. Favoriten, Beetzuweisungen und Notizen aus der alten Datenbank waren im Katalogexport nicht enthalten.
+
 ## Hosting und Wartung
 
 GitHub Pages unterstützt keine eigenen HTTP-Sicherheitsheader. Die Content Security Policy steht deshalb zusätzlich im HTML. `_headers` wird von GitHub Pages nicht ausgewertet; `security-headers.json` ist Metadaten für den optionalen Node-Hostingserver. Für einen Host mit eigener Header-Konfiguration ist `_headers` vorbereitet.
 
 `newgarten` ist für den Pfad `/newgarten/` gebaut. Bei Änderung des Repository-Namens müssen die App-Dateien mit dem passenden Basispfad neu erstellt werden.
 
-Die vollständigen bearbeitbaren Projektdateien und die getesteten SQL-Migrationen wurden separat als `newgarten-projekt.zip` bereitgestellt. Der Build wurde mit 20 automatisierten Prüfungen und Browserprüfungen auf Desktop/Handy kontrolliert; die Familienrechte wurden zusätzlich direkt in Supabase getestet. Ein vollständiger Produktivtest mit einem echten Familienkonto und eingerichtetem Gemini-Schlüssel steht noch aus.
+Die vollständigen bearbeitbaren Projektdateien und die getesteten SQL-Migrationen wurden separat als `newgarten-projekt.zip` bereitgestellt. Der Build wurde mit 22 automatisierten Prüfungen und Browserprüfungen auf Desktop/Handy kontrolliert; die Familienrechte wurden zusätzlich direkt in Supabase getestet. Ein vollständiger Produktivtest mit einem echten Familienkonto und eingerichtetem Gemini-Schlüssel steht noch aus.
