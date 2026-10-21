@@ -47,3 +47,5 @@ GitHub Pages unterstützt keine eigenen HTTP-Sicherheitsheader. Die Content Secu
 Die vollständigen bearbeitbaren Projektdateien und die getesteten SQL-Migrationen wurden separat als `newgarten-projekt.zip` bereitgestellt. Der Build wurde mit 30 automatisierten Prüfungen und Browserprüfungen auf Desktop/Handy kontrolliert; die Familienrechte wurden zusätzlich direkt in Supabase getestet. Ein vollständiger Produktivtest mit einem echten Familienkonto und eingerichtetem Gemini-Schlüssel steht noch aus.
 
 Die Beetauswahl führt über Kategorie → Kultur → Sorte. Es werden nur die zur gewählten Kategorie passenden Kulturen und deren Sorten angezeigt. Alle Auswahlen stehen alphabetisch; auch die Beetnamen sind natürlich sortiert (Beet 2 vor Beet 10). Beim Aufruf aus einer Pflanze bleiben Kategorie, Kultur und Sorte vorausgewählt. Ein Kategorienwechsel setzt die Kultur- und Sortenauswahl zurück.
+
+Die drei Zahlenkacheln der Übersicht öffnen direkt Pflanzen, Beete und Notizen. Die Pflanzenkachel zeigt den vollständigen Bestand; auch Kacheln mit Zähler 0 bleiben bedienbar. Die Navigation ist per Touch und Tastatur geprüft.
