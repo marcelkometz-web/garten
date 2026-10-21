@@ -4,6 +4,10 @@ Ramonas Garten: gemeinsame Pflanzen, Beete und Notizen mit eigener Anmeldung je 
 
 Web-App: https://marcelkometz-web.github.io/newgarten/
 
+Unter „Jetzt ist Aussaatzeit für …“ öffnen Alle, Gemüse, Obst, Beeren, Kräuter, Blumen und Garten-Praxis direkt die vollständige Sortenliste mit aktivem Monatsfilter. Jede Kategorie zeigt die Zahl aktuell passender Einträge. Beeren ist eine zusätzliche Auswahl im Obstkatalog. Ohne Termine im aktuellen Monat lässt sich der Monatsfilter abschalten. Die Sorten stehen alphabetisch nach Kultur und Sortenname.
+
+Das Gemini-Modell ist unter „Familie & Konto“, bei Gartenfragen und beim Saatgut-Scanner auswählbar: 3.1 Flash-Lite, 3.1 Pro (Vorschau), 3.8 Flash und 4 Argon. Der Serverstandard bleibt zusätzlich wählbar. Die Einstellung wird pro Konto auf diesem Gerät gespeichert. Modellverfügbarkeit und Kosten hängen vom Google-Zugang ab; der geheime API-Schlüssel bleibt ausschließlich in Supabase. Die Edge Function prüft Modellnamen vor jeder Anbieteranfrage gegen dieselbe freigegebene Liste wie die Oberfläche.
+
 Dieses Repository enthält die fertigen statischen Programmdateien für GitHub Pages. Der Veröffentlichungszweig ist `main`, das Verzeichnis ist `/`.
 
 ## Supabase einrichten
@@ -44,7 +48,7 @@ GitHub Pages unterstützt keine eigenen HTTP-Sicherheitsheader. Die Content Secu
 
 `newgarten` ist für den Pfad `/newgarten/` gebaut. Bei Änderung des Repository-Namens müssen die App-Dateien mit dem passenden Basispfad neu erstellt werden.
 
-Die vollständigen bearbeitbaren Projektdateien und die getesteten SQL-Migrationen wurden separat als `newgarten-projekt.zip` bereitgestellt. Der Build wurde mit 30 automatisierten Prüfungen und Browserprüfungen auf Desktop/Handy kontrolliert; die Familienrechte wurden zusätzlich direkt in Supabase getestet. Ein vollständiger Produktivtest mit einem echten Familienkonto und eingerichtetem Gemini-Schlüssel steht noch aus.
+Die vollständigen bearbeitbaren Projektdateien und die getesteten SQL-Migrationen wurden separat als `newgarten-projekt.zip` bereitgestellt. Der Build wurde mit 33 automatisierten Prüfungen und Browserprüfungen auf Desktop/Handy kontrolliert; die Familienrechte wurden zusätzlich direkt in Supabase getestet. Ein vollständiger Produktivtest mit einem echten Familienkonto und eingerichtetem Gemini-Schlüssel steht noch aus.
 
 Die Beetauswahl führt über Kategorie → Kultur → Sorte. Es werden nur die zur gewählten Kategorie passenden Kulturen und deren Sorten angezeigt. Alle Auswahlen stehen alphabetisch; auch die Beetnamen sind natürlich sortiert (Beet 2 vor Beet 10). Beim Aufruf aus einer Pflanze bleiben Kategorie, Kultur und Sorte vorausgewählt. Ein Kategorienwechsel setzt die Kultur- und Sortenauswahl zurück.
 
