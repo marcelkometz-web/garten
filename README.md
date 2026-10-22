@@ -16,13 +16,9 @@ Die Datenbankregeln und die Funktion `garden-ai` liegen im bestätigten Supabase
 
 In [Auth → URL Configuration](https://supabase.com/dashboard/project/wwybkswpyoyowciumxda/auth/url-configuration) die Site URL und Redirect URL auf `https://marcelkometz-web.github.io/newgarten/` setzen. E-Mail-Bestätigung aktivieren und eine Mindestpasswortlänge von 12 Zeichen konfigurieren.
 
-Für die optionale KI in [Edge Function Secrets](https://supabase.com/dashboard/project/wwybkswpyoyowciumxda/functions/secrets) konfigurieren:
+Die Familienverwaltung richtet die optionale KI direkt in der App unter **Familie & Konto → Die passende KI für euch** ein: einen gültigen Google-Gemini-Schlüssel eintragen, Modell wählen und **Speichern & prüfen**. Der Zugang wird verschlüsselt in Supabase Vault für die Familie gespeichert. Alle Mitglieder können ihn nutzen; nur die Familienverwaltung kann ihn ersetzen oder entfernen. Gespeicherte Schlüssel werden nicht an Browser zurückgegeben und nicht exportiert.
 
-- `APP_ORIGIN`: `https://marcelkometz-web.github.io` (ohne Pfad und ohne abschließenden Slash).
-- `GEMINI_API_KEY`: dein Google-Gemini-Schlüssel, ausschließlich als Server-Secret.
-- `GEMINI_MODEL`: eine in deinem Konto verfügbare Modell-ID; Standard `gemini-2.5-flash`.
-
-Der Gemini-Schlüssel ist nicht in diesem Repository enthalten. Diese Auth-/Secret-Einstellungen müssen vor dem jeweiligen Betrieb im Supabase-Dashboard geprüft werden.
+Für diese veröffentlichte App sind keine manuellen Edge-Secrets nötig. Die Webadresse ist bereits freigegeben, und die Supabase-Serverzugänge werden vom Edge-Runtime bereitgestellt. Ein früherer globaler Gemini-Schlüssel wird nicht als Ersatz genutzt. Der voreingestellte Serverstandard ist Gemini 3.8 Flash. Der Verbindungstest fragt Modellmetadaten ab und erzeugt keinen Text oder Bilder.
 
 ## Familie anlegen
 
@@ -48,7 +44,7 @@ GitHub Pages unterstützt keine eigenen HTTP-Sicherheitsheader. Die Content Secu
 
 `newgarten` ist für den Pfad `/newgarten/` gebaut. Bei Änderung des Repository-Namens müssen die App-Dateien mit dem passenden Basispfad neu erstellt werden.
 
-Die vollständigen bearbeitbaren Projektdateien und die getesteten SQL-Migrationen wurden separat als `newgarten-projekt.zip` bereitgestellt. Der Build wurde mit 33 automatisierten Prüfungen und Browserprüfungen auf Desktop/Handy kontrolliert; die Familienrechte wurden zusätzlich direkt in Supabase getestet. Ein vollständiger Produktivtest mit einem echten Familienkonto und eingerichtetem Gemini-Schlüssel steht noch aus.
+Die vollständigen bearbeitbaren Projektdateien und die getesteten SQL-Migrationen wurden separat als `newgarten-projekt.zip` bereitgestellt. Der Build wurde mit 40 automatisierten Prüfungen und Browserprüfungen auf Desktop/Handy kontrolliert; die Familienrechte wurden zusätzlich direkt in Supabase getestet. Ein vollständiger Produktivtest mit einem echten Familienkonto und eingerichtetem Gemini-Schlüssel steht noch aus.
 
 Die Beetauswahl führt über Kategorie → Kultur → Sorte. Es werden nur die zur gewählten Kategorie passenden Kulturen und deren Sorten angezeigt. Alle Auswahlen stehen alphabetisch; auch die Beetnamen sind natürlich sortiert (Beet 2 vor Beet 10). Beim Aufruf aus einer Pflanze bleiben Kategorie, Kultur und Sorte vorausgewählt. Ein Kategorienwechsel setzt die Kultur- und Sortenauswahl zurück.
 

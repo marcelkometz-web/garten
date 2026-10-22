@@ -168,6 +168,7 @@ input[type=checkbox]{accent-color:var(--accent)}
 .sowing-category>span:first-child{font-size:1.1rem}
 .sowing-count{display:inline-flex;justify-content:center;align-items:center;min-width:25px;min-height:25px;padding:2px 7px;border-radius:20px;background:var(--accent-soft);color:var(--accent);font-size:.7rem;font-variant-numeric:tabular-nums}
 .plant-results-summary{margin:-6px 0 20px}
+.shared-ai-panel>.field{margin-top:20px}.shared-ai-panel>[data-ai-key-status]{margin:16px 0;padding:13px 15px;border:1px solid var(--line);border-radius:10px;background:var(--input)}.ai-key-form>.small{margin:-6px 0 12px}.ai-key-form .form-actions{justify-content:flex-start;flex-wrap:wrap}.ai-key-form .form-actions>.button{min-height:44px}
 @media(max-width:600px){.sowing-categories{gap:8px;margin:15px 0 20px}.sowing-category{min-height:46px;padding:8px 10px;gap:7px;font-size:.72rem}.sowing-section>.small{font-size:.75rem}.plant-results-summary{font-size:.73rem}}
 .season-dialog-copy>p:first-child{font-size:.9rem}
 .settings-grid>.panel.appearance-panel{grid-column:1/-1;grid-row:auto}
