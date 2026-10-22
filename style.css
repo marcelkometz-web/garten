@@ -438,7 +438,16 @@ input[type=checkbox]{accent-color:var(--accent)}
 .detail-ai-question h3{font-size:1rem;margin-bottom:10px}
 .detail-ai-question>.small{line-height:1.65;margin:10px 0 16px}
 .detail-ai-question textarea{min-height:100px}
+.detail-ai-accordion{margin:20px 0;border:1px solid var(--line);border-radius:14px;background:var(--input);overflow:hidden}
+.detail-ai-accordion>summary{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:56px;padding:16px 18px;font-size:1rem;font-weight:600;cursor:pointer;list-style:none}
+.detail-ai-accordion>summary::-webkit-details-marker{display:none}
+.detail-ai-accordion>summary>span{min-width:0;overflow-wrap:anywhere}
+.detail-ai-accordion>summary::after{content:'';width:8px;height:8px;border:solid currentColor;border-width:0 2px 2px 0;transform:rotate(45deg);flex-shrink:0;margin:0 3px 4px}
+.detail-ai-accordion[open]>summary::after{transform:rotate(225deg);margin-top:5px;margin-bottom:0}
+.detail-ai-accordion>summary:focus-visible{outline:2px solid var(--accent);outline-offset:-4px;border-radius:12px}
+.detail-ai-accordion>.detail-ai-question{margin:0;padding:0 18px 18px;border:0;border-radius:0;background:transparent}
 .weather-temperature .eyebrow{white-space:normal;overflow-wrap:anywhere}
 .weather-location-controls .form-actions{margin-top:14px;justify-content:flex-start}
 .weather-location-controls>.small{margin-top:10px;line-height:1.65}
 @media(max-width:600px){.detail-ai-question{padding:14px}.detail-variety-actions>button{flex:1}.weather-location-controls .button{font-size:.75rem}}
+@media(max-width:600px){.detail-ai-accordion>summary{padding:16px 14px}.detail-ai-accordion>.detail-ai-question{padding:0 14px 14px}}

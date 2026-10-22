@@ -152,7 +152,10 @@ Bei fehlendem API-Guthaben oder Anbieterlimits helfen neue App-Dateien allein
 nicht. Keine vertraulichen Angaben senden. KI kann sich irren.
 
 TEILEN UND KI-FRAGEN ZU EINER SORTE
-In jeder Sortenkarte stehen „Teilen / Drucken“ und ein eigenes KI-Fragefeld.
+In jeder Sortenkarte stehen „Teilen / Drucken“ und ein aufklappbares KI-Fragefeld.
+„ChatGPT zu dieser Sorte fragen“ beziehungsweise „Gemini zu dieser Sorte fragen“
+antippen, um es zu öffnen. Es ist zunächst zugeklappt. Beim Zu- und Aufklappen
+bleiben deine Eingabe und eine erhaltene Antwort in dieser Sortenansicht erhalten.
 Die Frage wird zusammen mit den gespeicherten Anbaudaten dieser Sorte an den
 angezeigten Anbieter geschickt. Fotos und separat gespeicherte Familiennotizen
 werden nicht mitgegeben. Bei einem Sortenwechsel beginnt ein neues Fragefeld.

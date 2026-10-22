@@ -10,7 +10,7 @@ Diese Dateien sind die veröffentlichte Oberfläche für GitHub Pages.
 - Beete mit Fotos, Maßen, Gartenjahren, Mehrfachbelegung und Positionsauswahl
 - Bearbeitbarer 2D-Lageplan mit optionalem Video-/Fotoentwurf über die gewählte Garten-KI
 - Gemeinsame Notizen, Teilen/WhatsApp und Drucken/PDF direkt in jeder Sorte
-- Eigenes KI-Fragefeld mit Sortenkontext
+- Aufklappbares KI-Fragefeld mit Sortenkontext
 - Private Kalenderdateien für Aussaat, Pflanzung, Ernte und Pflege
 - JSON-Sicherung mit Vorschau zur ergänzenden Wiederherstellung
 - Wetter am freigegebenen Gerätestandort, Duisburg als Ausweichort
