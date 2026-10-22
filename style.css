@@ -417,3 +417,28 @@ input[type=checkbox]{accent-color:var(--accent)}
 @media(max-width:600px){.overview-content .hero [data-saying-part="title"]{font-size:1.45rem;line-height:1.2}.overview-content .hero [data-saying-part="description"]{min-height:4.8em}}
 
 @media(max-width:360px){.overview-content .hero [data-saying-part="title"]{min-height:3.6em}}
+
+/* Private Gartentermine: große Ziele und ruhige Vorschau in allen Farbwelten. */
+.calendar-form>p,.calendar-form>.small{line-height:1.65;margin-bottom:18px}
+.calendar-guidance{padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--input)}
+.calendar-result{padding:18px;border:1px solid var(--line);border-radius:14px;background:var(--input);margin-top:18px;overflow-wrap:anywhere}
+.calendar-result h3{font-size:1rem;margin-bottom:8px}
+.calendar-result .share-actions{margin-top:16px}
+.calendar-result .button{text-align:center;min-height:44px}
+.calendar-help{margin-top:22px;font-size:.82rem;line-height:1.65}
+.calendar-help summary{cursor:pointer;font-weight:600;min-height:44px;display:flex;align-items:center}
+.calendar-help p{margin-top:12px}
+.calendar-shortcut{margin-top:16px;min-height:44px}
+.calendar-panel>.small{margin-top:16px;line-height:1.65}
+[data-active-ai-provider]{margin:16px 0;padding:10px 12px;border:1px solid var(--line);border-radius:10px}
+@media(max-width:600px){.calendar-form .form-grid{grid-template-columns:minmax(0,1fr)}.calendar-form input,.calendar-form select{min-width:0;max-width:100%}.calendar-result{padding:14px}.calendar-form .form-actions>.button{flex:1;min-height:44px}}
+.detail-variety-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:14px 0}
+.detail-variety-actions>button{min-height:44px}
+.detail-ai-question{padding:18px;border:1px solid var(--line);border-radius:14px;background:var(--input);margin:20px 0}
+.detail-ai-question h3{font-size:1rem;margin-bottom:10px}
+.detail-ai-question>.small{line-height:1.65;margin:10px 0 16px}
+.detail-ai-question textarea{min-height:100px}
+.weather-temperature .eyebrow{white-space:normal;overflow-wrap:anywhere}
+.weather-location-controls .form-actions{margin-top:14px;justify-content:flex-start}
+.weather-location-controls>.small{margin-top:10px;line-height:1.65}
+@media(max-width:600px){.detail-ai-question{padding:14px}.detail-variety-actions>button{flex:1}.weather-location-controls .button{font-size:.75rem}}

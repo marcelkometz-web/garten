@@ -13,7 +13,7 @@ Die Familienverwaltung fügt das bestätigte Konto unter „Familie & Konto“ h
 Auf gemeinsam genutzten Geräten nach der Nutzung abmelden.
 
 STARTSEITE UND SUCHE
-Die Startseite bündelt Pflanzensuche, „Gemini fragen“ und „Tütchen scannen“
+Die Startseite bündelt Pflanzensuche, „Gemini fragen“ beziehungsweise „ChatGPT fragen“ und „Tütchen scannen“
 in einer Karte. Die schmale Wetterkarte öffnet weitere Angaben beim Antippen.
 Das X leert den Suchtext. Datum und Uhrzeit beziehen sich auf Europe/Berlin.
 Die Wetteranzeige nutzt Open-Meteo für den festen Stadtmittelpunkt Duisburgs,
@@ -39,7 +39,7 @@ Favoriten und Aussaatfilter filtern die angebotenen Sorten gemeinsam.
 Standort und Frostvorsorge werden unter „Familie & Konto“ eingestellt.
 Termine und Fruchtfolge sind Planungshilfen. Tütchen und örtliche Lage prüfen.
 Der Nachbestellknopf öffnet Anbieter- und Suchlinks; bestellt wird dort.
-Beim Anlegen einer noch fehlenden Sorte kann Gemini Angaben ergänzen.
+Beim Anlegen einer noch fehlenden Sorte kann der gewählte KI-Anbieter Angaben ergänzen.
 Dafür werden Kultur, Sortenname und Region gesendet. Die automatische
 Ergänzung lässt sich im Formular abschalten. Alle Vorschläge vor dem
 Speichern prüfen; bei unbekannten Sorten Angaben manuell eintragen.
@@ -68,7 +68,7 @@ Die Familienverwaltung kann „Video / Fotos → Planentwurf“ verwenden:
 - Ein Rundgangvideo (MP4/MOV/WebM, maximal 5 Minuten und 250 MB) ODER bis zu
   9 überlappende Gartenfotos (JPEG/PNG/WebP, je maximal 15 MB) auswählen.
 - Gartenmaße und optionale Hinweise zur Zuordnung eingeben.
-- Übermittlung an Google Gemini ausdrücklich freigeben und Entwurf erstellen.
+- Übermittlung an den angezeigten KI-Anbieter ausdrücklich freigeben und Entwurf erstellen.
 - Vorschau prüfen und bewusst übernehmen oder verwerfen.
 
 Das Video bleibt auf dem Gerät. Nur 6 verkleinerte Standbilder werden gesendet.
@@ -126,15 +126,74 @@ Vibration funktioniert nur bei Unterstützung durch Gerät und Browser.
 Normale iPhone-Web-Apps unterstützen diese Vibration API nicht.
 Die sichtbare Rückmeldung beim Antippen bleibt verfügbar.
 
-OPTIONALE KI
-Nur die Familienverwaltung richtet den gemeinsamen Google-Gemini-Zugang ein.
-Ein Schlüssel wird über das vorgesehene Feld verschlüsselt gespeichert und
-anschließend nicht wieder angezeigt. Keine Supabase-Secret-Schlüssel eintragen.
-Die Modellwahl gilt pro Konto auf diesem Gerät. „Verbindung prüfen“ verlangt
-jetzt eine echte kurze Modellantwort. Dafür gelten Anbieterlimits und eventuell
-Google-API-Kosten. Eine reine Modellfreigabe reicht für die Generierung nicht.
-Bei HTTP 402 ist beim Google-Projekt API-Abrechnung oder Guthaben zu prüfen.
-Keine vertraulichen Angaben senden. KI kann sich irren.
+OPTIONALE KI: OPENAI / CHATGPT-MODELLE ODER GEMINI
+Nur die Familienverwaltung richtet den gemeinsamen Zugang ein:
+1. „Familie & Konto → Die passende KI für euch“ öffnen.
+2. Anbieter „OpenAI · ChatGPT-Modelle“ oder „Google Gemini“ wählen.
+3. Den jeweiligen API-Schlüssel in das geschützte Feld eintragen.
+4. „Speichern, prüfen & nutzen“ drücken. Erst nach echter Testantwort wird der
+   gewählte Anbieter für alle Mitglieder dieses Familiengartens aktiviert.
+Ein gespeicherter Zugang lässt sich ohne erneute Schlüsseleingabe über
+„Gespeicherten Zugang für alle nutzen“ prüfen und aktivieren.
+
+OpenAI-Schlüssel: https://platform.openai.com/api-keys
+API-Abrechnung: https://platform.openai.com/settings/organization/billing/overview
+Ein ChatGPT-Abo enthält kein API-Guthaben. API-Nutzung wird separat abgerechnet.
+Google-Gemini-Schlüssel: https://aistudio.google.com/apikey
+
+Jeder Anbieter hat einen getrennten, serverseitig verschlüsselten Schlüssel.
+Er wird anschließend nicht wieder angezeigt und nicht in Sicherungen exportiert.
+Familienmitglieder brauchen keinen eigenen Schlüssel. Die Modellwahl gilt pro
+Konto, Gerät und Anbieter. GPT-5.4 mini ist der OpenAI-Standard; GPT-5.5 ist
+zusätzlich wählbar. Verfügbarkeit und Kosten hängen vom API-Projekt ab.
+Das gemeinsame Familienlimit beträgt insgesamt 20 KI-Anfragen pro Stunde.
+„Verbindung prüfen“ erzeugt eine echte Antwort und kann API-Kosten verursachen.
+Bei fehlendem API-Guthaben oder Anbieterlimits helfen neue App-Dateien allein
+nicht. Keine vertraulichen Angaben senden. KI kann sich irren.
+
+TEILEN UND KI-FRAGEN ZU EINER SORTE
+In jeder Sortenkarte stehen „Teilen / Drucken“ und ein eigenes KI-Fragefeld.
+Die Frage wird zusammen mit den gespeicherten Anbaudaten dieser Sorte an den
+angezeigten Anbieter geschickt. Fotos und separat gespeicherte Familiennotizen
+werden nicht mitgegeben. Bei einem Sortenwechsel beginnt ein neues Fragefeld.
+
+GARTENTERMINE IM KALENDER
+„Zum Kalender hinzufügen“ findest du bei der Anbauplanung jeder Sorte sowie
+bei jedem Beet. Frei planbar auch unter „Familie & Konto → Gartentermin planen“.
+Aufgabe, Datum, Sorte/Beet, ganztägig oder Uhrzeit/Dauer, Erinnerung und eigene
+Hinweise auswählen. „Kalenderdatei vorbereiten“ erzeugt eine private .ics-Datei
+auf dem Gerät. Anschließend öffnen/laden oder bei Unterstützung über das
+Gerät teilen und in deiner Kalender-App importieren.
+
+Mac: Datei in Apple Kalender öffnen oder „Ablage → Importieren“ verwenden.
+iPhone/iPad: Datei öffnen oder teilen. Falls keine Kalenderübernahme angeboten
+wird, kannst du sie an deine eigene E-Mail-Adresse senden und den Anhang in
+Apple Mail öffnen. Die Schritte hängen von iOS und Kalender-App ab.
+Outlook/Google Kalender: Die Importfunktion der App beziehungsweise Webversion
+verwenden. Den Zielkalender wählst du beim Import.
+
+Die App benötigt dafür kein Apple-Passwort und verschickt keine Einladungen.
+Erinnerungen richten sich nach der Kalender-App. Uhrzeiten beziehen sich auf
+Duisburg (Europe/Berlin), einschließlich Sommerzeit. Spätere Änderungen werden
+nicht automatisch abgeglichen. Wiederholter Import kann Duplikate erzeugen.
+Die iCloud-Plugins in ChatGPT sind davon getrennt. Der tatsächliche Import auf
+einem physischen Apple-Gerät wurde noch nicht geprüft.
+
+WETTER AM AKTUELLEN STANDORT
+Die Wetterkarte aufklappen und „Meinen Standort verwenden“ antippen.
+Alternativ dieselbe Auswahl unter „Familie & Konto → Euer Ort. Eure Termine“.
+Nach deiner Browserfreigabe wird das Wetter für den Aufenthaltsort geladen.
+Die Standortwahl wird auf diesem Gerät gemerkt; der Ort wird bei Bedarf neu
+erfasst. Die Ortung und Wetterdaten werden bis zu 15 Minuten zwischengespeichert.
+„Meinen Standort verwenden“ fragt die Position erneut ab.
+
+An Open-Meteo gehen auf zwei Nachkommastellen gerundete Koordinaten, keine
+exakte GPS-Position. Koordinaten werden nicht in Supabase oder im lokalen
+Dauerspeicher gespeichert. Nur die Wahl „Gerätestandort“/„Duisburg“ bleibt lokal.
+Bei fehlender Ortung wird Duisburg ausdrücklich als Ausweichort angezeigt.
+„Duisburg verwenden“ schaltet zurück. Die Wetteranzeige lässt sich ausschalten.
+Der gemeinsame Gartenort für Aussaat und Frostplanung wird dadurch nicht
+verändert. Open-Meteo verarbeitet technisch notwendige Verbindungsdaten.
 
 DATENSCHUTZ
 Details unter „Datenschutz & Hilfe“, auch vor der Anmeldung erreichbar.
