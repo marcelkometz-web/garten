@@ -1,4 +1,4 @@
-RAMONAS GARTEN – KURZE BEDIENHILFE
+RAMONAS GARTEN – BEDIENHILFE
 Stand: 22. Oktober 2026
 
 Privates Familienprojekt für Pflanzen, Beete und Gartennotizen.
@@ -16,8 +16,9 @@ STARTSEITE UND SUCHE
 Die Startseite bündelt Pflanzensuche, „Gemini fragen“ beziehungsweise „ChatGPT fragen“ und „Tütchen scannen“
 in einer Karte. Die schmale Wetterkarte öffnet weitere Angaben beim Antippen.
 Das X leert den Suchtext. Datum und Uhrzeit beziehen sich auf Europe/Berlin.
-Die Wetteranzeige nutzt Open-Meteo für den festen Stadtmittelpunkt Duisburgs,
-keinen Gerätestandort. Sie lässt sich in den Einstellungen ausschalten.
+Die Wetteranzeige nutzt Open-Meteo. Duisburg ist zunächst der Ausgangsort;
+mit „Meinen Standort verwenden“ und deiner Freigabe lässt sich das aktuelle
+Standortwetter anzeigen. Die Wetteranzeige lässt sich ausschalten.
 Die Anzeige ist eine Modellprognose mit Zeitangabe, keine Messung im Garten.
 
 GARTENSPRÜCHE
@@ -34,9 +35,13 @@ PFLANZEN UND SORTEN
 Jede Kultur erscheint einmal, beispielsweise Knoblauch. Tippe auf die Kachel,
 um ihre alphabetisch geordneten Sorten auszuwählen. Suche, Kategorie,
 Favoriten und Aussaatfilter filtern die angebotenen Sorten gemeinsam.
-„Alle“ schaltet den Aussaatfilter aus und zeigt den gesamten Katalog.
+Startseiten-Kategorien öffnen alle Sorten ihrer Kategorie, ohne Aussaatfilter.
+„Alle“ entfernt Kategorie und Aussaatfilter. Eine eingegebene Suche oder
+aktivierte Favoriten können die Auswahl weiterhin einschränken; bei Bedarf
+das Such-X und den Favoritenfilter zum Zurücksetzen verwenden.
 „Aussaat jetzt“ unterscheidet Vorziehen, Direktsaat und Pflanzen/Stecken.
 Standort und Frostvorsorge werden unter „Familie & Konto“ eingestellt.
+Die Frostvorsorge wird als Tag und Monat gewählt und gilt jährlich.
 Termine und Fruchtfolge sind Planungshilfen. Tütchen und örtliche Lage prüfen.
 Der Nachbestellknopf öffnet Anbieter- und Suchlinks; bestellt wird dort.
 Beim Anlegen einer noch fehlenden Sorte kann der gewählte KI-Anbieter Angaben ergänzen.
@@ -100,24 +105,32 @@ SICHERUNG EXPORTIEREN UND WIEDER EINLESEN
 „Familie & Konto → Daten mitnehmen → Gartendaten exportieren“ speichert JSON.
 Zum Einlesen als Familienverwaltung „Sicherung wiederherstellen“ öffnen:
 1. Die zuvor exportierte JSON-Datei auswählen (maximal 20 MB).
-2. Vorschau der fehlenden Pflanzen, Beete, Zuweisungen und Notizen prüfen.
+2. Vorschau der fehlenden Pflanzen, Beete, Zuweisungen, Notizen und Termine prüfen.
 3. Ergänzung bestätigen und „Geprüfte Daten ergänzen“ drücken.
 Gleiche Kulturen/Sorten und gleichnamige Beete werden wiederverwendet.
 Bestehende Einträge und Sortennotizen werden nicht überschrieben.
-Die JSON-Datei enthält keine Bilddateien, KI-Schlüssel oder Kontoeinstellungen.
+Die JSON-Datei enthält Pflanzen, Beete, Anbauhistorie, Notizen und Termine.
+Bilddateien, KI-Schlüssel, private Kalenderlinks und Kontoeinstellungen fehlen.
 Fotoverweise funktionieren nur bei weiterhin vorhandenen Dateien im selben
 Familiengarten. Datenbank und Storage-Fotos zusätzlich in Supabase sichern.
 Exportdateien privat aufbewahren; sie enthalten eigene Gartendaten und Notizen.
 
 AKTUALISIEREN UND FENSTER
-Der kleine runde Knopf mit dem Aktualisierungspfeil lädt die aktuellen
-Gartendaten. Das Teilen-Symbol bei der Standanzeige öffnet „Teilen & Drucken“.
-Angefangene Kontoformulare bleiben dabei erhalten. Eine entzogene oder
-geänderte Familienzuordnung beendet den bisherigen Zugriff.
+Der runde Knopf mit dem Aktualisierungspfeil lädt Gartendaten und Wetter.
+„Familie & Konto → App aktualisieren“ sucht sofort nach einer neuen
+Programmversion. Zusätzlich prüft die App beim Öffnen, bei Rückkehr in den Tab
+und alle fünf Minuten automatisch. Neue Versionen werden übernommen, sobald
+alle App-Tabs ihre Formulare gespeichert und Dialoge geschlossen haben.
+Offene Eingaben, Zeichnungen, Notizentwürfe und laufende Aktionen werden geschützt.
+Nach Einführung der Updatefunktion einmal über den Browser neu laden.
+Anschließend erfolgt die Übernahme neuer Programmversionen automatisch.
+Speichern braucht Internet; private Gartendaten werden nicht offline abgelegt.
+
 Geöffnete Fenster sperren das Scrollen des Hintergrunds. Das Fenster selbst
-bleibt scrollbar. Beim Schließen kehrst du zur vorherigen Position zurück.
-Programmanpassungen mit Neuladen der Seite übernehmen; der schwebende Button
-aktualisiert Gartendaten und Wetter. Speichern braucht eine Internetverbindung.
+bleibt scrollbar. Das große X in der oberen Leiste bleibt beim Scrollen
+sichtbar. Beim Schließen kehrst du zur vorherigen Position zurück.
+Das Teilen-Symbol bei der Standanzeige öffnet „Teilen & Drucken“.
+Eine entzogene oder geänderte Familienzuordnung beendet den bisherigen Zugriff.
 
 DESIGN UND HAPTIK
 Frühling, Sommer, Herbst und Winter unter „Familie & Konto“ auswählen.
@@ -126,33 +139,42 @@ Vibration funktioniert nur bei Unterstützung durch Gerät und Browser.
 Normale iPhone-Web-Apps unterstützen diese Vibration API nicht.
 Die sichtbare Rückmeldung beim Antippen bleibt verfügbar.
 
-OPTIONALE KI: OPENAI / CHATGPT-MODELLE ODER GEMINI
-Nur die Familienverwaltung richtet den gemeinsamen Zugang ein:
-1. „Familie & Konto → Die passende KI für euch“ öffnen.
-2. Anbieter „OpenAI · ChatGPT-Modelle“ oder „Google Gemini“ wählen.
-3. Den jeweiligen API-Schlüssel in das geschützte Feld eintragen.
-4. „Speichern, prüfen & nutzen“ drücken. Erst nach echter Testantwort wird der
-   gewählte Anbieter für alle Mitglieder dieses Familiengartens aktiviert.
-Ein gespeicherter Zugang lässt sich ohne erneute Schlüsseleingabe über
-„Gespeicherten Zugang für alle nutzen“ prüfen und aktivieren.
+OPTIONALE KI: EIGENE WAHL ZWISCHEN CHATGPT UND GEMINI
+Unter „Familie & Konto → Meine KI“ wählt jedes Mitglied selbst:
+- ChatGPT / OpenAI
+- Google Gemini
+- Familienstandard (für Konten ohne eigene Festlegung)
+„KI-Auswahl speichern“ übernimmt den Anbieter für dein Konto auf allen Geräten.
+Andere Mitglieder bleiben bei ihrer eigenen Wahl. Fragen, Tütchenfotos,
+Sortenergänzungen und Planentwürfe verwenden deine gespeicherte Auswahl.
+Die Modellwahl gilt pro Anbieter auf diesem Gerät. GPT-5.4 mini ist der
+OpenAI-Standard; GPT-5.5 und GPT-6 Astra sind zusätzlich wählbar.
+Bei GPT-6 Astra steht in jeder Auswahl:
+„Hoher Token- und Kostenverbrauch möglich. Nur für wichtige Fragen nutzen.“
+Verfügbarkeit und Kosten hängen vom API-Projekt ab.
+
+Nur die Familienverwaltung hinterlegt die gemeinsamen API-Schlüssel:
+1. „Familie & Konto → Zwei Zugänge. Freie Wahl.“ öffnen.
+2. Unter „Gemeinsamen KI-Zugang einrichten“ OpenAI oder Gemini wählen.
+3. Den zugehörigen API-Schlüssel eintragen und „Schlüssel speichern & prüfen“
+   drücken. Für den anderen Anbieter bei Bedarf wiederholen.
+4. Jedes Mitglied wählt anschließend unter „Meine KI“ seinen Anbieter.
+„Als Familienstandard verwenden“ ändert nur die Vorgabe für Mitglieder ohne
+eigene Auswahl. Ein eingerichteter Zugang genügt je Anbieter für eure Familie.
+Nicht eingerichtete Anbieter sind in der persönlichen Auswahl gesperrt.
 
 OpenAI-Schlüssel: https://platform.openai.com/api-keys
 API-Abrechnung: https://platform.openai.com/settings/organization/billing/overview
 Ein ChatGPT-Abo enthält kein API-Guthaben. API-Nutzung wird separat abgerechnet.
 Google-Gemini-Schlüssel: https://aistudio.google.com/apikey
 
-Jeder Anbieter hat einen getrennten, serverseitig verschlüsselten Schlüssel.
-Er wird anschließend nicht wieder angezeigt und nicht in Sicherungen exportiert.
-Familienmitglieder brauchen keinen eigenen Schlüssel. Die Modellwahl gilt pro
-Konto, Gerät und Anbieter. GPT-5.4 mini bleibt der OpenAI-Standard. GPT-5.5 und
-GPT-6 Astra sind zusätzlich wählbar. Bei GPT-6 Astra erscheint der Hinweis:
-„Hoher Token- und Kostenverbrauch möglich. Nur für wichtige Fragen nutzen.“
-Er steht bei jeder Modellauswahl und bleibt bei gespeicherter GPT-6-Auswahl
-sichtbar. Verfügbarkeit und Kosten hängen vom API-Projekt ab.
-Das gemeinsame Familienlimit beträgt insgesamt 20 KI-Anfragen pro Stunde.
-„Verbindung prüfen“ erzeugt eine echte Antwort und kann API-Kosten verursachen.
-Bei fehlendem API-Guthaben oder Anbieterlimits helfen neue App-Dateien allein
-nicht. Keine vertraulichen Angaben senden. KI kann sich irren.
+Die Schlüssel werden getrennt serverseitig verschlüsselt gespeichert, nicht
+wieder angezeigt und nicht in Sicherungen exportiert. Mitglieder benötigen
+keine eigenen Schlüssel. Das Familienlimit beträgt gemeinsam 20 KI-Anfragen
+pro Stunde. „Verbindung prüfen“ erzeugt eine echte Antwort und kann API-Kosten
+verursachen. Bei fehlendem Guthaben, ungültigen Schlüsseln oder Anbieterlimits
+hilft ein neues App-Update allein nicht. Keine vertraulichen Angaben senden.
+KI-Vorschläge vor dem Speichern kontrollieren; KI kann sich irren.
 
 TEILEN UND KI-FRAGEN ZU EINER SORTE
 In jeder Sortenkarte stehen „Teilen / Drucken“ und ein aufklappbares KI-Fragefeld.
@@ -163,27 +185,48 @@ Die Frage wird zusammen mit den gespeicherten Anbaudaten dieser Sorte an den
 angezeigten Anbieter geschickt. Fotos und separat gespeicherte Familiennotizen
 werden nicht mitgegeben. Bei einem Sortenwechsel beginnt ein neues Fragefeld.
 
-GARTENTERMINE IM KALENDER
-„Zum Kalender hinzufügen“ findest du bei der Anbauplanung jeder Sorte sowie
-bei jedem Beet. Frei planbar auch unter „Familie & Konto → Gartentermin planen“.
-Aufgabe, Datum, Sorte/Beet, ganztägig oder Uhrzeit/Dauer, Erinnerung und eigene
-Hinweise auswählen. „Kalenderdatei vorbereiten“ erzeugt eine private .ics-Datei
-auf dem Gerät. Anschließend öffnen/laden oder bei Unterstützung über das
-Gerät teilen und in deiner Kalender-App importieren.
+GARTENTERMINE UND KALENDERABO (APPLE UND ANDROID)
+„Zum Kalender hinzufügen“ steht bei jeder Sorte und jedem Beet.
+Unter „Familie & Konto“ findest du ebenfalls „Gartentermin planen“.
+„Sorte suchen“ nimmt Kultur oder Sortennamen entgegen. Anschließend die
+gewünschte Sorte auswählen; ohne Sorte sind allgemeine Termine möglich.
+Aufgaben: Aussaat, Pflanzen, Ernte, Pflege, Erde kaufen, Saatgut kaufen,
+Pflanzen/Dünger kaufen, Düngen, Gießen, Beet vorbereiten, Werkzeug, Sonstiges.
+Titel, Datum, Uhrzeit oder ganztägig, Erinnerung und eigene Hinweise wählen.
+„Termin speichern“ speichert für den Familiengarten. „Termine ansehen“
+öffnet die gespeicherten Termine zum Bearbeiten und Löschen.
 
-Mac: Datei in Apple Kalender öffnen oder „Ablage → Importieren“ verwenden.
-iPhone/iPad: Datei öffnen oder teilen. Falls keine Kalenderübernahme angeboten
-wird, kannst du sie an deine eigene E-Mail-Adresse senden und den Anhang in
-Apple Mail öffnen. Die Schritte hängen von iOS und Kalender-App ab.
-Outlook/Google Kalender: Die Importfunktion der App beziehungsweise Webversion
-verwenden. Den Zielkalender wählst du beim Import.
+AUTOMATISCHES ABO
+Unter „Familie & Konto → Kalenderabo einrichten“ einen privaten Link erstellen.
+Apple: „In Apple Kalender abonnieren“ wählen und dort bestätigen. Alternativ
+den HTTPS-Link als neues Kalenderabonnement eintragen.
+Google / Android: calendar.google.com im Desktop-Browser oder in der
+Desktopansicht öffnen. „Weitere Kalender → + → Per URL“ wählen und den
+HTTPS-Link einfügen. Den neuen Kalender anschließend in der Google-Kalender-
+App einblenden. Apple und Google bestimmen den Abrufrhythmus. Änderungen
+können verzögert ankommen. Termine in der Garten-App bearbeiten; das Abo
+überträgt nur von der Garten-App zum Kalender. Erinnerungen bei Abos hängen
+von der Kalender-App ab.
 
-Die App benötigt dafür kein Apple-Passwort und verschickt keine Einladungen.
-Erinnerungen richten sich nach der Kalender-App. Uhrzeiten beziehen sich auf
-Duisburg (Europe/Berlin), einschließlich Sommerzeit. Spätere Änderungen werden
-nicht automatisch abgeglichen. Wiederholter Import kann Duplikate erzeugen.
-Die iCloud-Plugins in ChatGPT sind davon getrennt. Der tatsächliche Import auf
-einem physischen Apple-Gerät wurde noch nicht geprüft.
+Der Link wird nur direkt nach dem Erstellen angezeigt. Jetzt kopieren und
+nur in deiner Kalender-App verwenden: Jeder mit diesem Link kann eure
+Gartentermine ohne Anmeldung lesen. Titel, Zeitpunkt und Termin-Hinweise
+gehen an den Kalenderanbieter. In der Datenbank liegt nur ein Hash des Links.
+„Abo-Link widerrufen“ sperrt weitere Abrufe. Ein neuer Link sperrt den alten;
+danach das neue Abo im Kalender einrichten. Entfernte Mitglieder verlieren
+ihren Zugriff. Bereits heruntergeladene Termine bleiben beim Kalenderanbieter,
+bis du dort das Abonnement entfernst. Fotos und separat gespeicherte Notizen
+sind nicht enthalten. Ein Apple-Passwort wird nicht benötigt.
+
+EINZELDATEI ALS ALTERNATIVE
+Nach dem Speichern „Kalenderdatei öffnen / laden“ wählen und die .ics-Datei
+bewusst importieren. Mac: mit Apple Kalender öffnen. iPhone/iPad: öffnen oder
+als eigenen E-Mail-Anhang in Apple Mail öffnen. Google/Outlook: Importfunktion
+der Webversion verwenden; anschließend auf Android anzeigen lassen.
+Datei-Importe werden nicht automatisch abgeglichen. Wiederholtes Importieren
+kann Duplikate erzeugen. Uhrzeiten gelten in Europe/Berlin mit Sommerzeit.
+Die iCloud-Plugins in ChatGPT sind getrennt von der Garten-App. Auf echten
+Apple-/Android-Geräten wurden Import und Erinnerungen noch nicht geprüft.
 
 WETTER AM AKTUELLEN STANDORT
 Die Wetterkarte aufklappen und „Meinen Standort verwenden“ antippen.
@@ -206,3 +249,8 @@ Details unter „Datenschutz & Hilfe“, auch vor der Anmeldung erreichbar.
 GitHub Pages liefert die Oberfläche; Supabase verarbeitet Anmeldung und
 Gartendaten. Keine Analyse- oder Werbedienste. Die private Nutzung allein
 ersetzt keine rechtliche Prüfung. Das Impressum enthält Betreiberangaben.
+
+DATUM UND UHRZEIT
+Anzeige: TT.MM.JJJJ / HH:MM:SS, Zeitzone Europe/Berlin. Die Sekunden sind
+kleiner. Die Doppelpunkte blinken im Sekundentakt; bei aktivierter
+Bewegungsreduktion bleiben sie ruhig.

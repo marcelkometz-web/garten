@@ -452,3 +452,66 @@ input[type=checkbox]{accent-color:var(--accent)}
 .weather-location-controls>.small{margin-top:10px;line-height:1.65}
 @media(max-width:600px){.detail-ai-question{padding:14px}.detail-variety-actions>button{flex:1}.weather-location-controls .button{font-size:.75rem}}
 @media(max-width:600px){.detail-ai-accordion>summary{padding:16px 14px}.detail-ai-accordion>.detail-ai-question{padding:0 14px 14px}}
+
+/* A single, visible close control stays reachable in every scrolled dialog. */
+dialog,dialog.plant-detail-dialog{padding:0;overflow-y:auto;scroll-padding-top:68px}
+.dialog-close-rail{position:sticky;top:0;z-index:30;display:flex;justify-content:flex-end;align-items:center;min-height:60px;padding:6px 12px;background:var(--paper);border-bottom:1px solid var(--line)}
+.dialog-close-button{display:grid;place-items:center;flex:0 0 48px;width:48px;min-height:48px;border:2px solid var(--ink);border-radius:50%;background:var(--accent);color:var(--on-accent);font-size:1.35rem;font-weight:800;cursor:pointer;box-shadow:0 2px 8px #0003}
+.dialog-close-button:hover{filter:brightness(1.12)}
+.dialog-close-button:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.dialog-content{padding:22px 28px 28px;min-width:0}
+.dialog-content .dialog-heading{margin-bottom:22px}
+.calendar-search .search-with-clear{display:flex;gap:8px;align-items:center}
+.calendar-search input{min-width:0;flex:1}
+.calendar-search .icon-button{min-width:44px;min-height:44px;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.calendar-search [role=status]{margin:8px 0 0}
+.calendar-event-list{list-style:none;padding:0;margin:20px 0;display:grid;gap:14px}
+.calendar-event-list li{display:grid;gap:8px;padding:14px;border:1px solid var(--line);border-radius:12px;overflow-wrap:anywhere}
+.calendar-subscription .calendar-abo-link{display:grid;gap:12px;margin:18px 0}
+.calendar-abo-link textarea{width:100%;font-size:.8rem;overflow-wrap:anywhere;word-break:break-all}
+@media(max-width:600px){.dialog-content{padding:18px 20px calc(24px + env(safe-area-inset-bottom))}.plant-detail-dialog .dialog-content{padding:14px 18px calc(24px + env(safe-area-inset-bottom))}dialog.plant-detail-dialog{padding:0}.dialog-close-rail{padding-right:max(12px,env(safe-area-inset-right));min-height:60px}}
+
+.date-stamp .date-clock{display:inline-flex;align-items:baseline;gap:5px;white-space:nowrap;font-variant-numeric:tabular-nums;font-size:.85rem}
+.date-stamp .date-clock [data-calendar-date],.overview-header .date-stamp .date-clock [data-calendar-date]{display:inline;margin:0;font-size:inherit;line-height:1.5;font-weight:600}
+.date-stamp .date-clock .current-time,.overview-header .date-stamp .date-clock .current-time{display:inline-flex;align-items:baseline;margin:0;padding:0;border:0;font-size:1.08em;letter-spacing:0;line-height:1.5;font-variant-numeric:tabular-nums;color:var(--ink)}
+.date-clock-separator{font-weight:400;color:var(--muted)}
+.current-time .clock-seconds,.current-time .clock-seconds-colon{font-size:.65em}
+.clock-colon{animation:clock-colon-blink 1s step-end infinite}
+@keyframes clock-colon-blink{0%,49%{opacity:1}50%,100%{opacity:.2}}
+@media(prefers-reduced-motion:reduce){.clock-colon{animation:none}}
+@media(max-width:600px){.page-header{flex-wrap:wrap;gap:12px}.date-stamp .date-clock{font-size:.76rem}.overview-header .date-stamp .date-clock{font-size:.76rem}.date-stamp{max-width:100%}}
+.date-stamp .current-time>span{font-size:inherit}
+.date-stamp .current-time>.clock-seconds,.date-stamp .current-time>.clock-seconds-colon{font-size:.65em}
+
+/* The downloadable guide and the styled reader share one canonical text. */
+.help-main{max-width:980px;padding-top:16px;padding-bottom:40px}
+.help-topbar{position:sticky;top:0;z-index:40;display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:72px;padding:10px 0;background:var(--bg)}
+.help-topbar .brand{margin:0;font-size:1.05rem;gap:10px}
+.help-topbar .dialog-close-button{flex-shrink:0;text-decoration:none}
+.help-intro{margin:20px 0;overflow-wrap:anywhere}
+.help-intro h1{font-size:clamp(2rem,5vw,3.25rem);line-height:1.12;margin:18px 0}
+.help-intro>.muted{max-width:600px;line-height:1.8}
+.help-intro .form-actions{margin-top:24px}
+.help-contents{margin:20px 0}
+.help-contents>summary{font-size:1.05rem;font-weight:600;cursor:pointer;min-height:44px;padding:6px 0}
+.help-toc{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 18px;margin-top:18px}
+.help-toc a{display:flex;align-items:center;min-height:44px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;font-size:.73rem;line-height:1.5;text-decoration:none;overflow-wrap:anywhere;color:var(--ink)}
+.help-toc a:hover,.help-toc a:focus-visible{background:var(--accent);color:var(--on-accent)}
+.help-section{margin:18px 0;scroll-margin-top:90px;overflow-wrap:anywhere}
+.help-section h2{font-family:inherit;font-size:1.1rem;letter-spacing:.02em;line-height:1.5;margin:0 0 20px}
+.help-section p,.help-section li{color:var(--muted);font-size:.92rem;line-height:1.85}
+.help-section p+p,.help-section p+ul,.help-section p+ol{margin-top:16px}
+.help-section ul,.help-section ol{padding-left:24px}
+.help-section li+li{margin-top:10px}
+.help-up{display:inline-flex;align-items:center;min-height:44px;font-size:.78rem;margin-top:20px;text-underline-offset:4px}
+@media(max-width:600px){.help-main{padding:8px 16px 30px}.help-main .panel{padding:24px 20px}.help-toc{grid-template-columns:1fr}.help-topbar{min-height:68px}.help-topbar .brand{font-size:.9rem}.help-section p,.help-section li{font-size:.86rem}.help-intro .button{flex:1;text-align:center}.help-section h2{font-size:1rem}}
+
+.frost-date-field{border:0;padding:0;margin:20px 0;min-inline-size:0;max-width:100%}
+.frost-date-field>legend{padding:0;font-size:.9rem;line-height:1.5;color:var(--ink)}
+.frost-date-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:12px;margin-top:10px}
+.frost-date-grid .field{margin:0;min-width:0}
+.frost-date-grid label{font-size:.78rem;color:var(--muted)}
+.frost-date-grid select{width:100%;min-width:0;max-width:100%;min-height:48px;text-align:left}
+.frost-date-field>.small{margin:10px 0 0}
+input[type=date],input[type=time]{min-inline-size:0;max-inline-size:100%;width:100%;box-sizing:border-box;text-align:left}
+input[type=date]::-webkit-date-and-time-value,input[type=time]::-webkit-date-and-time-value{text-align:left;min-height:1.5em}

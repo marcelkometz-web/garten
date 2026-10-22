@@ -11,25 +11,40 @@ Diese Dateien sind die veröffentlichte Oberfläche für GitHub Pages.
 - Bearbeitbarer 2D-Lageplan mit optionalem Video-/Fotoentwurf über die gewählte Garten-KI
 - Gemeinsame Notizen, Teilen/WhatsApp und Drucken/PDF direkt in jeder Sorte
 - Aufklappbares KI-Fragefeld mit Sortenkontext
-- Private Kalenderdateien für Aussaat, Pflanzung, Ernte und Pflege
+- Gemeinsame Gartentermine für Aussaat, Pflege und Einkäufe mit privatem Apple-/Google-Kalenderabo
+- Eigene KI-Auswahl je Mitglied, gemeinsame verschlüsselte Anbieterzugänge
+- Automatische Programmupdates, zusätzlicher Knopf „App aktualisieren“
+- Sichtbares Schließen-X beim Scrollen und jährliche Frostvorsorge als Tag/Monat
+- Bedienhilfe im saisonalen App-Design mit read.txt-Download
 - JSON-Sicherung mit Vorschau zur ergänzenden Wiederherstellung
 - Wetter am freigegebenen Gerätestandort, Duisburg als Ausweichort
 - Uhrzeit, vier Jahreszeiten und schwebende Aktualisierung
 
-Bedienhilfe: [read.txt](read.txt) · [Impressum](impressum.html)
+Bedienhilfe: [Lesbare Hilfe](read.html) · [read.txt](read.txt) · [Impressum](impressum.html)
 
-Für den KI-Zugang unter „Familie & Konto“ OpenAI oder Google Gemini auswählen.
-Den jeweiligen API-Schlüssel verschlüsselt hinterlegen und „Speichern, prüfen & nutzen“ wählen.
-Erst nach einer echten Testantwort wird der Anbieter für die Familie aktiviert.
-Alle Familienmitglieder nutzen den gemeinsamen Zugang; das Limit bleibt insgesamt
-20 Anfragen pro Stunde. OpenAI-API-Nutzung wird separat vom ChatGPT-Abo abgerechnet.
-Die Modellwahl gilt pro Person und Anbieter auf diesem Gerät.
-GPT-6 Astra ist für wichtige Fragen auswählbar und zeigt einen deutlichen Hinweis
-auf möglichen hohen Token- und Kostenverbrauch. Standard bleibt GPT-5.4 mini.
+Die Familienverwaltung hinterlegt unter „Zwei Zugänge. Freie Wahl.“ gemeinsame Schlüssel
+für OpenAI und/oder Gemini mit „Schlüssel speichern & prüfen“. Jedes Mitglied wählt
+seinen Anbieter anschließend selbst unter „Meine KI“ und „KI-Auswahl speichern“.
+Die Wahl gilt für das eigene Konto auf allen Geräten. Der Familienstandard ist nur
+eine Vorgabe für Personen ohne eigene Wahl. Modelle bleiben pro Gerät/Anbieter gewählt.
+API-Nutzung wird separat abgerechnet; das Familienlimit beträgt gemeinsam 20 Anfragen
+pro Stunde. GPT-6 Astra ist für wichtige Fragen mit Kosten-/Tokenhinweis wählbar.
+Standard bleibt GPT-5.4 mini. Private Schlüssel gehören nicht in dieses Repository.
 
-„Zum Kalender hinzufügen“ erzeugt lokal eine private .ics-Datei zum bewussten Import.
-Es erfolgt kein automatischer Kalenderabgleich. Die iCloud-Plugins in ChatGPT sind
-eine separate Verbindung; Apple-Zugangsdaten sind für den Dateiimport nicht nötig.
+Gartentermine werden im Familiengarten gespeichert. „Kalenderabo einrichten“ erstellt
+einen privaten, widerrufbaren Link pro Mitglied. In Apple Kalender abonnieren oder in
+Google Kalender über „Weitere Kalender → Per URL“ eintragen und auf Android einblenden.
+Apple/Google bestimmen den Abrufrhythmus. Das Abo ist einseitig; Termine in der App
+bearbeiten. Jeder mit dem Link kann die gewählten Termindaten lesen: privat aufbewahren.
+Apple-Zugangsdaten werden nicht benötigt. Alternativ einzelne .ics-Dateien importieren;
+solche Datei-Importe werden nicht automatisch aktualisiert. Der reale Import und
+Erinnerungen auf physischen Apple-/Android-Geräten wurden noch nicht geprüft.
+
+Einmal neu laden, um die neue Updatefunktion erstmals zu erhalten. Danach unter
+„Familie & Konto → App aktualisieren“ nach neuen Funktionen suchen; offene Formulare
+und Dialoge in allen App-Tabs werden geschützt. Der schwebende Aktualisieren-Knopf
+lädt Gartendaten und Wetter. Datum: TT.MM.JJJJ / HH:MM:SS mit kleinen Sekunden.
+
 Videoentwürfe sind ungeprüfte räumliche Schätzungen; Maße selbst kontrollieren.
 
 Supabase-Publishable-Key und Projektadresse sind öffentliche Konfiguration.
