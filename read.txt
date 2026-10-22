@@ -12,6 +12,85 @@ Besteht bereits ein Familiengarten, legt ein neues Mitglied keinen zweiten an.
 Die Familienverwaltung fügt das bestätigte Konto unter „Familie & Konto“ hinzu.
 Auf gemeinsam genutzten Geräten nach der Nutzung abmelden.
 
+WEB-APP INSTALLIEREN
+Oben auf „Web-App installieren“ tippen. Die kleine Installationshilfe ist
+auch vor der Anmeldung erreichbar und bietet die Schritte für dein Gerät.
+- iPhone/iPad: in Safari „Teilen → Zum Home-Bildschirm → Hinzufügen“.
+- Android: in Chrome/Edge „App installieren“ oder „Zum Startbildschirm“.
+- Windows: in Edge/Chrome das Installationssymbol in der Adressleiste wählen.
+- Mac: in Safari ab macOS Sonoma „Ablage → Zum Dock hinzufügen“ oder in
+  Chrome/Edge das Installationsangebot nutzen.
+Wenn dein Browser es unterstützt, erscheint „Jetzt installieren“ direkt
+in der Hilfe. Die Installation bestätigst du selbst auf dem Gerät. Die
+Menünamen können je nach Systemversion abweichen. Ohne Installationsangebot
+bleibt die Webseite vollständig nutzbar. Die installierte Web-App ist keine
+separate APK oder IPA. Solche zusätzlichen Installationsdateien sind vertagt.
+Nach dem Installieren kann eine erneute Anmeldung nötig sein. Speichern und
+KI benötigen Internet; private Gartendaten werden nicht offline gespeichert.
+
+EINSTELLUNGEN NACH ROLLE
+Unter „Familie & Konto“ stehen kompakte Kategorien. Jede Kachel öffnet ein
+Fenster. Das X bleibt beim Scrollen sichtbar; der Hintergrund scrollt nicht.
+- Für alle Nutzer: Profil, Meine KI, Design, Wetter, Kalender, App & Gerät,
+  Konto & Daten. Profil- und Wettereinstellungen sind persönliche Angaben.
+- Für ernannte Admins zusätzlich: Garten & Beete, Mitglieder, KI-Zugänge,
+  Sicherungen. Diese Bereiche verwalten den gemeinsamen Familiengarten.
+- Superadmin: ausschließlich das Betreiberkonto. Registrierte Konten sehen,
+  bestätigte freie Konten freischalten und Adminrechte vergeben/entziehen.
+  Dieser persönliche Bereich verlangt zusätzlich das eigene Adminpasswort.
+
+PROFIL ERSTELLEN UND FREIWILLIG VERÖFFENTLICHEN
+„Familie & Konto → Profil“ öffnen. Anzeigename, Wohnort und Foto sind optional.
+Das Foto wird vor dem Hochladen als neues JPEG auf höchstens 1280 Pixel und
+256 KiB verkleinert. Das Original mit Metadaten wird nicht hochgeladen.
+Zunächst ist das Profil privat: nur dein eigenes Konto kann es lesen.
+Auch andere Gartenadmins erhalten keinen Zugriff auf deine privaten Angaben.
+Der Profilwohnort ändert weder den Gartenstandort noch die Wetterwahl.
+
+Nach dem ersten privaten Speichern kann „Ich möchte mein Profil öffentlich
+im Internet teilen“ bewusst eingeschaltet werden. Ein Anzeigename ist dann
+Pflicht. Öffentlich sind nur Anzeigename, gewähltes Profilfoto und – nach
+zusätzlichem Ankreuzen – Wohnort. E-Mail, Anmeldekennung, Gartendaten,
+Kalenderlinks, Schlüssel und Rollen sind nicht Bestandteil des öffentlichen
+Profils. Keine vertraulichen Angaben oder genaue Wohnadresse eintragen.
+„Profil speichern & veröffentlichen“ bestätigt die Veröffentlichung.
+Danach den Profilbereich erneut öffnen und den eigenen Profil-Link ansehen
+oder kopieren. Der Link ist auch ohne Anmeldung erreichbar.
+
+Zum Zurücknehmen den Veröffentlichungs-Schalter ausschalten und privat
+speichern. Damit sind weitere anonyme Profil- und Fotoabrufe gesperrt.
+Bereits von anderen kopierte Angaben oder Fotos lassen sich nicht zurückholen.
+Profilbilder bleiben in privaten Buckets. Für öffentliche Fotoabrufe wird
+die aktuelle Veröffentlichungseinstellung geprüft; der private Foto-Pfad
+wird nicht veröffentlicht. „Profil löschen“ entfernt Profilangaben und Fotos,
+das Anmeldekonto und gemeinsame Garteneinträge bleiben bestehen. Bei einem
+Löschfehler wird das Profil zuerst privat gestellt; Hinweise im Fenster beachten.
+Profile und Profilbilder sind keine Bestandteile der gemeinsamen Gartensicherung.
+Ein eigenes Forum ist ein vorgesehener späterer Ausbau, noch keine Funktion.
+
+Der zusätzliche „Persönliche Adminbereich“ ist ausschließlich an das
+Betreiberkonto gebunden. Andere Gartenadmins erhalten darauf keinen Zugriff.
+Beim ersten Öffnen ein eigenes Zusatzpasswort mit 12 bis 128 Zeichen setzen
+und wiederholen. Ein anderes Passwort als für die Anmeldung verwenden.
+Der Server speichert einen gesalzenen bcrypt-Prüfwert mit SHA-256-Vorverarbeitung,
+keinen Klartext. Nach fünf falschen Versuchen gilt eine Wartezeit von 15 Minuten.
+Die zusätzliche Freigabe läuft nach zehn Minuten oder beim Sperren ab. Beim
+Schließen wird sie auf dem Server widerrufen, sofern eine Verbindung besteht;
+auf dem Gerät wird sie sofort verworfen. Der Freigabetoken liegt nur im
+Arbeitsspeicher, nicht im lokalen Speicher und nicht in Sicherungen.
+Das Zusatzpasswort ist eine zweite Passwortabfrage, keine Zwei-Faktor-Anmeldung.
+
+Im persönlichen Bereich lassen sich registrierte Konten nach E-Mail suchen,
+bestätigte freie Konten dem Garten hinzufügen und Rollen im eigenen Garten
+vergeben. Andere Gärten werden dabei nicht geöffnet oder verändert.
+„Adminrechte geben“ erlaubt die gemeinsame Gartenverwaltung: Mitglieder,
+KI-Zugänge und Garteneinstellungen. Es gibt damit keinen Zugang zum
+persönlichen Bereich des Betreibers. Das eigene primäre Adminkonto und der
+letzte Gartenadmin bleiben erhalten. „Admin-Zusatzpasswort ändern“ widerruft
+die bisherige Freigabe; anschließend erneut entsperren. Ein vergessenes
+Zusatzpasswort muss der Betreiber über die geschützte Serververwaltung
+zurücksetzen; die App zeigt es nie an.
+
 STARTSEITE UND SUCHE
 Die Startseite bündelt Pflanzensuche, „Gemini fragen“ beziehungsweise „ChatGPT fragen“ und „Tütchen scannen“
 in einer Karte. Die schmale Wetterkarte öffnet weitere Angaben beim Antippen.
@@ -50,7 +129,7 @@ Ergänzung lässt sich im Formular abschalten. Alle Vorschläge vor dem
 Speichern prüfen; bei unbekannten Sorten Angaben manuell eintragen.
 
 BEETE, POSITIONEN UND FOTOS
-Unter „Familie & Konto“ die gewünschte Beetanzahl eintragen. Fehlende nummerierte
+Unter „Familie & Konto → Garten & Beete“ die gewünschte Beetanzahl eintragen. Fehlende nummerierte
 Beete werden ergänzt; eine kleinere Zahl löscht keine vorhandenen Beete.
 „Beet bearbeiten“ öffnet Foto, Beschreibung und Breite/Länge in Metern,
 beispielsweise 2 × 1 m. Das Foto wird vor dem Hochladen verkleinert.
@@ -102,8 +181,8 @@ Separat gespeicherte Familiennotizen werden beim Teilen einer Sorte ausgelassen.
 Beim ausdrücklichen Teilen einer Notiz wird deren Inhalt weitergegeben.
 
 SICHERUNG EXPORTIEREN UND WIEDER EINLESEN
-„Familie & Konto → Daten mitnehmen → Gartendaten exportieren“ speichert JSON.
-Zum Einlesen als Familienverwaltung „Sicherung wiederherstellen“ öffnen:
+„Familie & Konto → Konto & Daten → Gartendaten exportieren“ speichert JSON.
+Zum Einlesen als Admin „Sicherungen → Sicherung wiederherstellen“ öffnen:
 1. Die zuvor exportierte JSON-Datei auswählen (maximal 20 MB).
 2. Vorschau der fehlenden Pflanzen, Beete, Zuweisungen, Notizen und Termine prüfen.
 3. Ergänzung bestätigen und „Geprüfte Daten ergänzen“ drücken.
@@ -117,7 +196,7 @@ Exportdateien privat aufbewahren; sie enthalten eigene Gartendaten und Notizen.
 
 AKTUALISIEREN UND FENSTER
 Der runde Knopf mit dem Aktualisierungspfeil lädt Gartendaten und Wetter.
-„Familie & Konto → App aktualisieren“ sucht sofort nach einer neuen
+„Familie & Konto → App & Gerät → App aktualisieren“ sucht sofort nach einer neuen
 Programmversion. Zusätzlich prüft die App beim Öffnen, bei Rückkehr in den Tab
 und alle fünf Minuten automatisch. Neue Versionen werden übernommen, sobald
 alle App-Tabs ihre Formulare gespeichert und Dialoge geschlossen haben.
@@ -133,7 +212,7 @@ Das Teilen-Symbol bei der Standanzeige öffnet „Teilen & Drucken“.
 Eine entzogene oder geänderte Familienzuordnung beendet den bisherigen Zugriff.
 
 DESIGN UND HAPTIK
-Frühling, Sommer, Herbst und Winter unter „Familie & Konto“ auswählen.
+Frühling, Sommer, Herbst und Winter unter „Familie & Konto → Design“ auswählen.
 Dort lässt sich „Vibration beim Antippen“ ein- oder ausschalten.
 Vibration funktioniert nur bei Unterstützung durch Gerät und Browser.
 Normale iPhone-Web-Apps unterstützen diese Vibration API nicht.
@@ -154,7 +233,7 @@ Bei GPT-6 Astra steht in jeder Auswahl:
 Verfügbarkeit und Kosten hängen vom API-Projekt ab.
 
 Nur die Familienverwaltung hinterlegt die gemeinsamen API-Schlüssel:
-1. „Familie & Konto → Zwei Zugänge. Freie Wahl.“ öffnen.
+1. „Familie & Konto → KI-Zugänge“ öffnen.
 2. Unter „Gemeinsamen KI-Zugang einrichten“ OpenAI oder Gemini wählen.
 3. Den zugehörigen API-Schlüssel eintragen und „Schlüssel speichern & prüfen“
    drücken. Für den anderen Anbieter bei Bedarf wiederholen.
@@ -197,7 +276,7 @@ Titel, Datum, Uhrzeit oder ganztägig, Erinnerung und eigene Hinweise wählen.
 öffnet die gespeicherten Termine zum Bearbeiten und Löschen.
 
 AUTOMATISCHES ABO
-Unter „Familie & Konto → Kalenderabo einrichten“ einen privaten Link erstellen.
+Unter „Familie & Konto → Kalender → Kalenderabo einrichten“ einen privaten Link erstellen.
 Apple: „In Apple Kalender abonnieren“ wählen und dort bestätigen. Alternativ
 den HTTPS-Link als neues Kalenderabonnement eintragen.
 Google / Android: calendar.google.com im Desktop-Browser oder in der
@@ -230,7 +309,7 @@ Apple-/Android-Geräten wurden Import und Erinnerungen noch nicht geprüft.
 
 WETTER AM AKTUELLEN STANDORT
 Die Wetterkarte aufklappen und „Meinen Standort verwenden“ antippen.
-Alternativ dieselbe Auswahl unter „Familie & Konto → Euer Ort. Eure Termine“.
+Alternativ dieselbe Auswahl unter „Familie & Konto → Wetter“.
 Nach deiner Browserfreigabe wird das Wetter für den Aufenthaltsort geladen.
 Die Standortwahl wird auf diesem Gerät gemerkt; der Ort wird bei Bedarf neu
 erfasst. Die Ortung und Wetterdaten werden bis zu 15 Minuten zwischengespeichert.

@@ -16,13 +16,18 @@ Diese Dateien sind die veröffentlichte Oberfläche für GitHub Pages.
 - Automatische Programmupdates, zusätzlicher Knopf „App aktualisieren“
 - Sichtbares Schließen-X beim Scrollen und jährliche Frostvorsorge als Tag/Monat
 - Bedienhilfe im saisonalen App-Design mit read.txt-Download
+- Einstellungen als Kategorie-Fenster, getrennt für Nutzer, Admins und Superadmin
+- Freiwillige private Profile mit Foto und Wohnort; öffentliche Profile nur nach ausdrücklicher Freigabe
+- Persönlicher Superadminbereich mit eigenem Zusatzpasswort, Kontoliste und Rollenvergabe
+- Kleiner Installationslink für Apple, Android, Windows und Mac
+- Kompaktere Katalogabrufe; vollständige Importoriginale bleiben im Sicherungsexport
 - JSON-Sicherung mit Vorschau zur ergänzenden Wiederherstellung
 - Wetter am freigegebenen Gerätestandort, Duisburg als Ausweichort
 - Uhrzeit, vier Jahreszeiten und schwebende Aktualisierung
 
 Bedienhilfe: [Lesbare Hilfe](read.html) · [read.txt](read.txt) · [Impressum](impressum.html)
 
-Die Familienverwaltung hinterlegt unter „Zwei Zugänge. Freie Wahl.“ gemeinsame Schlüssel
+Ernannte Admins hinterlegen unter „Familie & Konto → KI-Zugänge“ gemeinsame Schlüssel
 für OpenAI und/oder Gemini mit „Schlüssel speichern & prüfen“. Jedes Mitglied wählt
 seinen Anbieter anschließend selbst unter „Meine KI“ und „KI-Auswahl speichern“.
 Die Wahl gilt für das eigene Konto auf allen Geräten. Der Familienstandard ist nur
@@ -41,7 +46,7 @@ solche Datei-Importe werden nicht automatisch aktualisiert. Der reale Import und
 Erinnerungen auf physischen Apple-/Android-Geräten wurden noch nicht geprüft.
 
 Einmal neu laden, um die neue Updatefunktion erstmals zu erhalten. Danach unter
-„Familie & Konto → App aktualisieren“ nach neuen Funktionen suchen; offene Formulare
+„Familie & Konto → App & Gerät → App aktualisieren“ nach neuen Funktionen suchen; offene Formulare
 und Dialoge in allen App-Tabs werden geschützt. Der schwebende Aktualisieren-Knopf
 lädt Gartendaten und Wetter. Datum: TT.MM.JJJJ / HH:MM:SS mit kleinen Sekunden.
 
@@ -52,3 +57,17 @@ Private Gartendaten erfordern Anmeldung und passende Familienrechte.
 Server-, OpenAI- und Gemini-Schlüssel gehören nicht in dieses Repository.
 
 GitHub Pages veröffentlicht aus dem Hauptverzeichnis des Branches main.
+
+Unter „Familie & Konto“ öffnen Kacheln ein Fenster mit sichtbarem Schließen-X.
+Für alle: Profil, Meine KI, Design, Wetter, Kalender, App & Gerät, Konto & Daten.
+Für ernannte Admins zusätzlich: Garten & Beete, Mitglieder, KI-Zugänge, Sicherungen.
+Der persönliche Superadminbereich bleibt ausschließlich dem Betreiberkonto vorbehalten.
+Beim ersten Öffnen ein eigenes Zusatzpasswort mit mindestens 12 Zeichen zweimal eingeben.
+Weitere Gartenadmins erhalten keinen Zugang zu diesem persönlichen Bereich.
+
+Profile sind zunächst privat. Eine Veröffentlichung gibt nur Anzeigename, gewähltes
+Foto und separat freigegebenen Wohnort aus. E-Mail, Konto-ID und Gartendaten bleiben
+ausgeschlossen. Auf privat stellen widerruft künftige Profil- und Fotoabrufe; zuvor
+von anderen gespeicherte Kopien lassen sich nicht zurückholen. Profilfotos sind
+komprimierte JPEGs in privaten Buckets, veröffentlichte Abrufe werden separat geprüft.
+Das Forum und zusätzliche APK-/IPA-Dateien sind auf später verschoben.

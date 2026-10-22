@@ -3,6 +3,12 @@
   "name": "Ramonas Garten",
   "short_name": "Mein Garten",
   "lang": "de-DE",
+  "description": "Euer privates Gartenbuch für Pflanzen, Beete, Fotos und Gartentermine.",
+  "categories": [
+    "lifestyle",
+    "productivity"
+  ],
+  "prefer_related_applications": false,
   "start_url": "/newgarten/",
   "scope": "/newgarten/",
   "display": "standalone",
