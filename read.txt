@@ -13,11 +13,22 @@ Die Familienverwaltung fügt das bestätigte Konto unter „Familie & Konto“ h
 Auf gemeinsam genutzten Geräten nach der Nutzung abmelden.
 
 STARTSEITE UND SUCHE
-Die Startseite bietet Pflanzensuche, Gemini-Fragen und „Tütchen fotografieren“.
+Die Startseite bündelt Pflanzensuche, „Gemini fragen“ und „Tütchen scannen“
+in einer Karte. Die schmale Wetterkarte öffnet weitere Angaben beim Antippen.
 Das X leert den Suchtext. Datum und Uhrzeit beziehen sich auf Europe/Berlin.
 Die Wetteranzeige nutzt Open-Meteo für den festen Stadtmittelpunkt Duisburgs,
 keinen Gerätestandort. Sie lässt sich in den Einstellungen ausschalten.
 Die Anzeige ist eine Modellprognose mit Zeitangabe, keine Messung im Garten.
+
+GARTENSPRÜCHE
+Die Startkarte zeigt alle fünf Minuten einen neuen Gartengedanken passend zum
+aktuellen Monat in Duisburg. Pro Jahreszeit stehen 64 Sprüche zur Auswahl.
+Auf diesem Gerät erscheint mindestens vier Stunden lang kein gleicher Spruch.
+Auch nach einem Neuladen bleibt der laufende Fünf-Minuten-Zeitraum erhalten.
+Dafür werden nur Spruchkennungen und Anzeigezeiten lokal gespeichert.
+Ist lokaler Speicher gesperrt oder gelöscht, kann diese Erinnerung entfallen.
+Bei einem offenen Dialog wartet der Wechsel bis zu dessen Schließen.
+Die gewählte Farbwelt ändert den tatsächlichen Kalendermonat nicht.
 
 PFLANZEN UND SORTEN
 Jede Kultur erscheint einmal, beispielsweise Knoblauch. Tippe auf die Kachel,
@@ -99,7 +110,8 @@ Familiengarten. Datenbank und Storage-Fotos zusätzlich in Supabase sichern.
 Exportdateien privat aufbewahren; sie enthalten eigene Gartendaten und Notizen.
 
 AKTUALISIEREN UND FENSTER
-Der schwebende Button „Aktualisieren“ lädt die aktuellen Gartendaten.
+Der kleine runde Knopf mit dem Aktualisierungspfeil lädt die aktuellen
+Gartendaten. Das Teilen-Symbol bei der Standanzeige öffnet „Teilen & Drucken“.
 Angefangene Kontoformulare bleiben dabei erhalten. Eine entzogene oder
 geänderte Familienzuordnung beendet den bisherigen Zugriff.
 Geöffnete Fenster sperren das Scrollen des Hintergrunds. Das Fenster selbst

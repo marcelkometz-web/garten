@@ -4,6 +4,8 @@ Private Familien-Web-App: https://marcelkometz-web.github.io/newgarten/
 
 Diese Dateien sind die veröffentlichte Oberfläche für GitHub Pages.
 
+- Kompakte Startseite mit gebündelter Suche, KI-Aktionen und aufklappbarem Wetter
+- Gartensprüche: alle 5 Minuten, mindestens 4 Stunden ohne Wiederholung auf diesem Gerät
 - Kulturgruppen mit Sortenauswahl, Suche und regionaler Anbauplanung
 - Beete mit Fotos, Maßen, Gartenjahren, Mehrfachbelegung und Positionsauswahl
 - Bearbeitbarer 2D-Lageplan mit optionalem Video-/Fotoentwurf über Gemini
