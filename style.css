@@ -431,6 +431,7 @@ input[type=checkbox]{accent-color:var(--accent)}
 .calendar-shortcut{margin-top:16px;min-height:44px}
 .calendar-panel>.small{margin-top:16px;line-height:1.65}
 [data-active-ai-provider]{margin:16px 0;padding:10px 12px;border:1px solid var(--line);border-radius:10px}
+.ai-model-warning{margin:4px 0 0;padding:12px 14px;border-left:3px solid var(--warning-ink);border-radius:8px;background:var(--warning-bg);color:var(--warning-ink);line-height:1.6;overflow-wrap:anywhere}
 @media(max-width:600px){.calendar-form .form-grid{grid-template-columns:minmax(0,1fr)}.calendar-form input,.calendar-form select{min-width:0;max-width:100%}.calendar-result{padding:14px}.calendar-form .form-actions>.button{flex:1;min-height:44px}}
 .detail-variety-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:14px 0}
 .detail-variety-actions>button{min-height:44px}

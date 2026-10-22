@@ -1,5 +1,5 @@
 // Nur öffentliche Programmdateien. Keine Anmeldung, API-Antworten, Fotos oder Gartendaten cachen.
-const CACHE = 'ramonas-private-f005288a-shell-eb298f92f46e';
+const CACHE = 'ramonas-private-f005288a-shell-2441a4e87b06';
 const ASSETS = ["/newgarten/","/newgarten/index.html","/newgarten/impressum.html","/newgarten/read.txt","/newgarten/style.css","/newgarten/app.js","/newgarten/manifest.webmanifest","/newgarten/icon.svg","/newgarten/icon-192.png","/newgarten/icon-512.png"];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));

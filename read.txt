@@ -144,8 +144,11 @@ Google-Gemini-Schlüssel: https://aistudio.google.com/apikey
 Jeder Anbieter hat einen getrennten, serverseitig verschlüsselten Schlüssel.
 Er wird anschließend nicht wieder angezeigt und nicht in Sicherungen exportiert.
 Familienmitglieder brauchen keinen eigenen Schlüssel. Die Modellwahl gilt pro
-Konto, Gerät und Anbieter. GPT-5.4 mini ist der OpenAI-Standard; GPT-5.5 ist
-zusätzlich wählbar. Verfügbarkeit und Kosten hängen vom API-Projekt ab.
+Konto, Gerät und Anbieter. GPT-5.4 mini bleibt der OpenAI-Standard. GPT-5.5 und
+GPT-6 Astra sind zusätzlich wählbar. Bei GPT-6 Astra erscheint der Hinweis:
+„Hoher Token- und Kostenverbrauch möglich. Nur für wichtige Fragen nutzen.“
+Er steht bei jeder Modellauswahl und bleibt bei gespeicherter GPT-6-Auswahl
+sichtbar. Verfügbarkeit und Kosten hängen vom API-Projekt ab.
 Das gemeinsame Familienlimit beträgt insgesamt 20 KI-Anfragen pro Stunde.
 „Verbindung prüfen“ erzeugt eine echte Antwort und kann API-Kosten verursachen.
 Bei fehlendem API-Guthaben oder Anbieterlimits helfen neue App-Dateien allein

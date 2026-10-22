@@ -24,6 +24,8 @@ Erst nach einer echten Testantwort wird der Anbieter für die Familie aktiviert.
 Alle Familienmitglieder nutzen den gemeinsamen Zugang; das Limit bleibt insgesamt
 20 Anfragen pro Stunde. OpenAI-API-Nutzung wird separat vom ChatGPT-Abo abgerechnet.
 Die Modellwahl gilt pro Person und Anbieter auf diesem Gerät.
+GPT-6 Astra ist für wichtige Fragen auswählbar und zeigt einen deutlichen Hinweis
+auf möglichen hohen Token- und Kostenverbrauch. Standard bleibt GPT-5.4 mini.
 
 „Zum Kalender hinzufügen“ erzeugt lokal eine private .ics-Datei zum bewussten Import.
 Es erfolgt kein automatischer Kalenderabgleich. Die iCloud-Plugins in ChatGPT sind
