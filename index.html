@@ -2,7 +2,7 @@
 <html lang="de" data-base="/newgarten/">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self' https://wwybkswpyoyowciumxda.supabase.co wss://wwybkswpyoyowciumxda.supabase.co; manifest-src 'self'; worker-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' blob:; media-src blob:; connect-src 'self' https://wwybkswpyoyowciumxda.supabase.co wss://wwybkswpyoyowciumxda.supabase.co https://api.open-meteo.com; manifest-src 'self'; worker-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'">
   <meta name="referrer" content="no-referrer">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#2a221b">
@@ -19,6 +19,6 @@
   <div id="app"><div class="initial-loader"><span class="brand-symbol">♧</span><p>Dein Garten wird vorbereitet …</p></div></div>
   <div id="notifications" class="notifications" role="status" aria-live="polite"></div>
   <dialog id="dialog" aria-labelledby="dialog-title"></dialog>
-  <noscript>Bitte aktiviere JavaScript, um dich anzumelden und deinen Garten zu verwalten.</noscript>
+  <noscript>Bitte aktiviere JavaScript, um dich anzumelden und deinen Garten zu verwalten. <a href="/newgarten/impressum.html">Impressum</a> · <a href="/newgarten/read.txt">read.txt</a></noscript>
 </body>
 </html>

@@ -1,0 +1,131 @@
+RAMONAS GARTEN – KURZE BEDIENHILFE
+Stand: 22. Oktober 2026
+
+Privates Familienprojekt für Pflanzen, Beete und Gartennotizen.
+Web-App: https://marcelkometz-web.github.io/newgarten/
+Impressum: https://marcelkometz-web.github.io/newgarten/impressum.html
+Kontakt: marcelkometz@icloud.com
+
+ANMELDUNG UND FAMILIE
+Jede Person verwendet ein eigenes Konto und bestätigt ihre E-Mail-Adresse.
+Besteht bereits ein Familiengarten, legt ein neues Mitglied keinen zweiten an.
+Die Familienverwaltung fügt das bestätigte Konto unter „Familie & Konto“ hinzu.
+Auf gemeinsam genutzten Geräten nach der Nutzung abmelden.
+
+STARTSEITE UND SUCHE
+Die Startseite bietet Pflanzensuche, Gemini-Fragen und „Tütchen fotografieren“.
+Das X leert den Suchtext. Datum und Uhrzeit beziehen sich auf Europe/Berlin.
+Die Wetteranzeige nutzt Open-Meteo für den festen Stadtmittelpunkt Duisburgs,
+keinen Gerätestandort. Sie lässt sich in den Einstellungen ausschalten.
+Die Anzeige ist eine Modellprognose mit Zeitangabe, keine Messung im Garten.
+
+PFLANZEN UND SORTEN
+Jede Kultur erscheint einmal, beispielsweise Knoblauch. Tippe auf die Kachel,
+um ihre alphabetisch geordneten Sorten auszuwählen. Suche, Kategorie,
+Favoriten und Aussaatfilter filtern die angebotenen Sorten gemeinsam.
+„Alle“ schaltet den Aussaatfilter aus und zeigt den gesamten Katalog.
+„Aussaat jetzt“ unterscheidet Vorziehen, Direktsaat und Pflanzen/Stecken.
+Standort und Frostvorsorge werden unter „Familie & Konto“ eingestellt.
+Termine und Fruchtfolge sind Planungshilfen. Tütchen und örtliche Lage prüfen.
+Der Nachbestellknopf öffnet Anbieter- und Suchlinks; bestellt wird dort.
+Beim Anlegen einer noch fehlenden Sorte kann Gemini Angaben ergänzen.
+Dafür werden Kultur, Sortenname und Region gesendet. Die automatische
+Ergänzung lässt sich im Formular abschalten. Alle Vorschläge vor dem
+Speichern prüfen; bei unbekannten Sorten Angaben manuell eintragen.
+
+BEETE, POSITIONEN UND FOTOS
+Unter „Familie & Konto“ die gewünschte Beetanzahl eintragen. Fehlende nummerierte
+Beete werden ergänzt; eine kleinere Zahl löscht keine vorhandenen Beete.
+„Beet bearbeiten“ öffnet Foto, Beschreibung und Breite/Länge in Metern,
+beispielsweise 2 × 1 m. Das Foto wird vor dem Hochladen verkleinert.
+In einer Sorte öffnet „Beete auswählen / Status ändern“ die Mehrfachauswahl:
+Beete ankreuzen, Status, Anzahl und Position pro Beet wählen und speichern.
+Vorne bezeichnet die Zugangsseite des jeweiligen Beets. Ein Beet kann mehrere
+Sorten aufnehmen; eine Sorte kann in mehreren Beeten stehen.
+Status: geplant, gesät, gepflanzt, geerntet. Frühere Gartenjahre bleiben für
+die Anbauhistorie erhalten. Flächen- und Fruchtfolgehinweise sind Richtwerte.
+
+2D-LAGEPLAN AUS VIDEO, FOTOS ODER EIGENER ZEICHNUNG
+„Meine Beete → 2D-Lageplan“ öffnen. Zuerst Gartenmaße einstellen; die anfängliche
+Zeichenfläche von 20 × 30 m ist kein gemessenes Grundstück. Das Raster ist 1 m.
+„Beet einzeichnen“ einschalten und ein Rechteck ziehen. Anschließend ein
+vorhandenes Beet zuordnen oder ein neues anlegen. Seine Maße prüfen.
+Ein Beet antippen, um Foto, Maße, Position oder Drehung zu bearbeiten.
+Wege, Laube und Bäume lassen sich als Planelemente ergänzen und bearbeiten.
+
+Die Familienverwaltung kann „Video / Fotos → Planentwurf“ verwenden:
+- Ein Rundgangvideo (MP4/MOV/WebM, maximal 5 Minuten und 250 MB) ODER bis zu
+  9 überlappende Gartenfotos (JPEG/PNG/WebP, je maximal 15 MB) auswählen.
+- Gartenmaße und optionale Hinweise zur Zuordnung eingeben.
+- Übermittlung an Google Gemini ausdrücklich freigeben und Entwurf erstellen.
+- Vorschau prüfen und bewusst übernehmen oder verwerfen.
+
+Das Video bleibt auf dem Gerät. Nur 6 verkleinerte Standbilder werden gesendet.
+Bei Fotos werden ebenfalls nur verkleinerte JPEGs übertragen. Originaldateien
+werden nicht gespeichert. Videos mit nicht unterstütztem Codec bitte vorher
+als kompatibles MP4 exportieren oder stattdessen Fotos verwenden.
+Aus Perspektivbildern ist keine genaue Vermessung möglich. Der Entwurf ist
+ungeprüft. Maße, Reihenfolge und Zuordnung müssen selbst kontrolliert werden.
+Gemessene Beetmaße bleiben bei KI-Übernahme erhalten. Fehlende Beete anschließend
+selbst einzeichnen. Manuelles Zeichnen funktioniert auch ohne KI-Zugang.
+„Drucken / PDF“ druckt den Lageplan mit Beetlegende über das Systemdruckmenü.
+
+FOTOABLAGE
+Tütchen- und Beetfotos werden vor dem Hochladen als neue JPEGs mit höchstens
+1280 Pixeln an der langen Seite und 256 KiB gespeichert. Metadaten des Originals
+werden nicht übernommen. Die Fotoablage ist auf den Familiengarten beschränkt.
+Beim Scanner wird ein Foto erst zusammen mit dem geprüften Pflanzeneintrag
+gespeichert. Plan-Standbilder werden nicht dauerhaft in der App abgelegt.
+
+NOTIZEN, TEILEN UND DRUCKEN
+Sortennotizen speichern nach einer kurzen Schreibpause automatisch. Achte auf
+die Speicheranzeige. Bei Fehlern bleiben Entwürfe im geöffneten Tab erhalten.
+„Teilen & Drucken“ bietet Geräteteilen, WhatsApp, Kopieren und Systemdruck/PDF.
+Sortenlinks geben keine Datenrechte weiter: Empfänger brauchen Familienzugriff.
+Separat gespeicherte Familiennotizen werden beim Teilen einer Sorte ausgelassen.
+Beim ausdrücklichen Teilen einer Notiz wird deren Inhalt weitergegeben.
+
+SICHERUNG EXPORTIEREN UND WIEDER EINLESEN
+„Familie & Konto → Daten mitnehmen → Gartendaten exportieren“ speichert JSON.
+Zum Einlesen als Familienverwaltung „Sicherung wiederherstellen“ öffnen:
+1. Die zuvor exportierte JSON-Datei auswählen (maximal 20 MB).
+2. Vorschau der fehlenden Pflanzen, Beete, Zuweisungen und Notizen prüfen.
+3. Ergänzung bestätigen und „Geprüfte Daten ergänzen“ drücken.
+Gleiche Kulturen/Sorten und gleichnamige Beete werden wiederverwendet.
+Bestehende Einträge und Sortennotizen werden nicht überschrieben.
+Die JSON-Datei enthält keine Bilddateien, KI-Schlüssel oder Kontoeinstellungen.
+Fotoverweise funktionieren nur bei weiterhin vorhandenen Dateien im selben
+Familiengarten. Datenbank und Storage-Fotos zusätzlich in Supabase sichern.
+Exportdateien privat aufbewahren; sie enthalten eigene Gartendaten und Notizen.
+
+AKTUALISIEREN UND FENSTER
+Der schwebende Button „Aktualisieren“ lädt die aktuellen Gartendaten.
+Angefangene Kontoformulare bleiben dabei erhalten. Eine entzogene oder
+geänderte Familienzuordnung beendet den bisherigen Zugriff.
+Geöffnete Fenster sperren das Scrollen des Hintergrunds. Das Fenster selbst
+bleibt scrollbar. Beim Schließen kehrst du zur vorherigen Position zurück.
+Programmanpassungen mit Neuladen der Seite übernehmen; der schwebende Button
+aktualisiert Gartendaten und Wetter. Speichern braucht eine Internetverbindung.
+
+DESIGN UND HAPTIK
+Frühling, Sommer, Herbst und Winter unter „Familie & Konto“ auswählen.
+Dort lässt sich „Vibration beim Antippen“ ein- oder ausschalten.
+Vibration funktioniert nur bei Unterstützung durch Gerät und Browser.
+Normale iPhone-Web-Apps unterstützen diese Vibration API nicht.
+Die sichtbare Rückmeldung beim Antippen bleibt verfügbar.
+
+OPTIONALE KI
+Nur die Familienverwaltung richtet den gemeinsamen Google-Gemini-Zugang ein.
+Ein Schlüssel wird über das vorgesehene Feld verschlüsselt gespeichert und
+anschließend nicht wieder angezeigt. Keine Supabase-Secret-Schlüssel eintragen.
+Die Modellwahl gilt pro Konto auf diesem Gerät. „Verbindung prüfen“ verlangt
+jetzt eine echte kurze Modellantwort. Dafür gelten Anbieterlimits und eventuell
+Google-API-Kosten. Eine reine Modellfreigabe reicht für die Generierung nicht.
+Bei HTTP 402 ist beim Google-Projekt API-Abrechnung oder Guthaben zu prüfen.
+Keine vertraulichen Angaben senden. KI kann sich irren.
+
+DATENSCHUTZ
+Details unter „Datenschutz & Hilfe“, auch vor der Anmeldung erreichbar.
+GitHub Pages liefert die Oberfläche; Supabase verarbeitet Anmeldung und
+Gartendaten. Keine Analyse- oder Werbedienste. Die private Nutzung allein
+ersetzt keine rechtliche Prüfung. Das Impressum enthält Betreiberangaben.
