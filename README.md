@@ -33,7 +33,7 @@ seinen Anbieter anschließend selbst unter „Meine KI“ und „KI-Auswahl spei
 Die Wahl gilt für das eigene Konto auf allen Geräten. Der Familienstandard ist nur
 eine Vorgabe für Personen ohne eigene Wahl. Modelle bleiben pro Gerät/Anbieter gewählt.
 API-Nutzung wird separat abgerechnet; das Familienlimit beträgt gemeinsam 20 Anfragen
-pro Stunde. GPT-6 Astra ist für wichtige Fragen mit Kosten-/Tokenhinweis wählbar.
+pro Stunde und 100 je 24 Stunden; der Superadmin kann diese Anfragegrenzen ändern. GPT-6 Astra ist für wichtige Fragen mit Kosten-/Tokenhinweis wählbar.
 Standard bleibt GPT-5.4 mini. Private Schlüssel gehören nicht in dieses Repository.
 
 Gartentermine werden im Familiengarten gespeichert. „Kalenderabo einrichten“ erstellt
@@ -85,3 +85,14 @@ und erhalten normale Mitgliedsrechte. Kein temporäres Passwort per E-Mail.
 Supabase-Standardversand begrenzt Empfänger auf das Projektteam. Für externe
 Empfänger ist eigener SMTP-Zugang erforderlich. Kein kostenpflichtiges Upgrade
 wurde aktiviert. Versandübergabe ist keine Zustellgarantie.
+
+
+Der persönliche Adminbereich enthält jetzt Konten, Funktionen, KI-Limits,
+Sicherheit, Protokoll und System. App-Konten lassen sich sperren/entsperren,
+öffentliche Profile, Familienforum und KI zentral pausieren, Modelle einzeln
+freigeben und Stunden-/24-Stunden-Anfragegrenzen je Familie festlegen.
+Die Prüfungen greifen serverseitig. Das Protokoll speichert Verwaltungsaktionen,
+keine Geheimnisse oder privaten Inhalte. Systemstatus zeigt den Programmstand
+und begrenzte technische Metadaten. Anfragezähler sind kein Euro-/Tokenbudget.
+Private Aufgaben und unveröffentlichte Profile bleiben auch vor dem Superadmin
+verborgen. Kontolöschungen gesperrter Nutzer unterstützt der Betreiber.

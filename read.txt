@@ -249,8 +249,8 @@ Google-Gemini-Schlüssel: https://aistudio.google.com/apikey
 
 Die Schlüssel werden getrennt serverseitig verschlüsselt gespeichert, nicht
 wieder angezeigt und nicht in Sicherungen exportiert. Mitglieder benötigen
-keine eigenen Schlüssel. Das Familienlimit beträgt gemeinsam 20 KI-Anfragen
-pro Stunde. „Verbindung prüfen“ erzeugt eine echte Antwort und kann API-Kosten
+keine eigenen Schlüssel. Standardmäßig gelten gemeinsam 20 KI-Anfragen
+pro Stunde und 100 je 24 Stunden. Der Superadmin kann diese Grenzen anpassen. „Verbindung prüfen“ erzeugt eine echte Antwort und kann API-Kosten
 verursachen. Bei fehlendem Guthaben, ungültigen Schlüsseln oder Anbieterlimits
 hilft ein neues App-Update allein nicht. Keine vertraulichen Angaben senden.
 KI-Vorschläge vor dem Speichern kontrollieren; KI kann sich irren.
@@ -464,3 +464,46 @@ Der kostenlose Supabase-Standardversand beschränkt Empfänger auf Mitglieder
 des Supabase-Projektteams. Für Einladungen an weitere Adressen ist ein eigener
 SMTP-Zugang in Supabase Auth nötig. Es wurde kein bezahlter Dienst eingerichtet.
 Eine Erfolgsmeldung bestätigt die Übergabe an Supabase, keine Postfachzustellung.
+
+
+SUPERADMIN: FUNKTIONEN, LIMITS UND SICHERHEIT
+Der entsperrte persönliche Bereich ist in sechs Kategorien gegliedert:
+Konten, Funktionen, KI-Limits, Sicherheit, Protokoll und System.
+Nur das fest zugeordnete Betreiberkonto kann diese Bereiche verwenden.
+Ernannte Gartenadmins erhalten diese Rechte nicht.
+
+Konten: Nutzer einladen, bestätigte freie Konten hinzufügen und Gartenrollen
+vergeben. „App-Zugang sperren“ verhindert neue App-Datenabrufe und Änderungen
+auch mit einer zuvor bestehenden Anmeldung. Kalenderfreigaben werden widerrufen.
+Bereits geladene Inhalte oder gespeicherte Kopien lassen sich nicht zurückholen.
+Beim Entsperren bleiben Gartendaten erhalten, das Kalenderabo muss neu angelegt
+werden. Das Betreiberkonto kann hier nicht gesperrt werden. Eine Kontolöschung
+während der Sperre erfolgt über den Betreiber; nach Entsperrung wieder selbst.
+
+Funktionen: Öffentliche Profile, Familienforum und Garten-KI global freigeben
+oder pausieren. Vorhandene Inhalte bleiben gespeichert. Beim Aktivieren der
+Profilfreigabe werden zuvor freiwillig veröffentlichte Profile wieder erreichbar.
+Private Profile und persönliche Aufgaben bleiben für andere unzugänglich.
+
+KI-Limits: Modelle für Gemini und OpenAI einzeln freigeben. Ohne freigegebenes
+Modell ist der jeweilige Anbieter gesperrt. Standards: 20 Anfragen je Stunde
+und 100 je 24 Stunden pro Familie, über beide Anbieter und alle Mitglieder.
+Zeitfenster beginnen bei der ersten zugelassenen Anfrage. Auch Verbindungstests
+und zugelassene Anfragen mit anschließendem Anbieterfehler zählen. Bereits am
+App-Limit abgelehnte Anfragen zählen nicht weiter. Die Limits sind serverseitig,
+aber kein Token- oder Eurobudget. Verbindliche Ausgabenlimits beim Anbieter setzen.
+Die Modellauswahl ist keine Garantie für den Zugang beim jeweiligen Anbieter.
+
+Sicherheit: Zusatzpasswort ändern, per frischer Betreiber-E-Mail zurücksetzen
+oder die aktuelle Adminfreigabe sofort beenden. Eine neue Entsperrung ersetzt die
+vorherige Freigabe. Keine Zwei-Faktor-Anmeldung und kein kostenpflichtiges Upgrade.
+
+Protokoll: Zeigt Verwaltungsänderungen ab Aktivierung dieser Funktion. Gespeichert
+werden Zeit, Aktion und beteiligte Konto-IDs, keine Passwörter, API-Schlüssel,
+KI-Fragen oder privaten Beiträge. Bei Kontolöschung entfallen die Konto-IDs.
+Es ist kein vollständiges oder manipulationssicheres Datenbank-Audit.
+
+System: Programmstand, Serverzeit, registrierte Konten, Gärten, laufende KI-Zähler
+und Dateigrößen der drei Garten-Fotospeicher. Keine Token-/Kostenabrechnung und
+keine vollständige Supabase-Speicherquote. Für technische Fehler gibt es einen
+Link zu Supabase Logs; dafür ist ein eigener Supabase-Zugang erforderlich.

@@ -629,3 +629,11 @@ input[type=date]::-webkit-date-and-time-value,input[type=time]::-webkit-date-and
 .life-suggestions>h3{font-family:Georgia,serif;font-size:1.35rem;font-weight:400}
 @media(max-width:800px){.life-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}.life-list{grid-template-columns:1fr}}
 @media(max-width:600px){.life-tab{padding:12px 8px;font-size:.75rem;gap:6px}.life-toolbar>.life-search{flex-basis:100%}.life-toolbar>select{flex:1}.life-card{padding:18px}.home-garden-life{padding:18px}.home-life-actions>.button{flex:1}.life-suggestion{align-items:flex-start}.life-suggestion>.button{padding:10px}}
+
+.admin-console-nav { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.5rem;margin:1rem 0 1.25rem; }
+.admin-console-nav .button { min-width:0;min-height:46px;padding:.7rem .4rem;text-align:center; }
+.admin-console-nav .button.active { background:var(--accent);color:var(--on-accent); }
+.admin-models { border:1px solid var(--line);border-radius:1rem;padding:1rem;margin:1rem 0; }
+.admin-models .consent strong { display:block; }
+.admin-log-details { white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;font-size:.78rem; }
+@media(min-width:720px){.admin-console-nav{grid-template-columns:repeat(6,minmax(0,1fr));}}
