@@ -391,7 +391,7 @@ dann bewusst neu eingerichtet werden.
 
 SORTENDETAILS AUFKLAPPEN
 Sortenauswahl, Teilen, Nachbestellen und Beetstatus bleiben direkt erreichbar.
-Aussaat & Anbau ist zuerst offen. Standort & Pflege, Sorte & Verwendung,
+Aussaat & Anbau ist ebenfalls zuerst zugeklappt. Standort & Pflege, Sorte & Verwendung,
 Nachbarn, Notizen und die Sorten-KI lassen sich einzeln öffnen. Mehrere Bereiche
 können zugleich geöffnet bleiben. Die Notizüberschrift zeigt vorhandenen Text
 an; Notizen speichern weiterhin automatisch. Tütchenfotos werden erst beim
@@ -507,3 +507,41 @@ System: Programmstand, Serverzeit, registrierte Konten, Gärten, laufende KI-Zä
 und Dateigrößen der drei Garten-Fotospeicher. Keine Token-/Kostenabrechnung und
 keine vollständige Supabase-Speicherquote. Für technische Fehler gibt es einen
 Link zu Supabase Logs; dafür ist ein eigener Supabase-Zugang erforderlich.
+
+
+SCHATTIGE PLÄTZE UND LEBENSDAUER
+Unter „Pflanzen“ oder den Kategorien der Startseite „Schattige Plätze“ wählen.
+Die Auswahl zeigt passende Kulturen mit ihren Sorten. Halbschatten und lichte
+Baumkronen können geeignet sein; dichter, trockener Vollschatten ist kein
+verlässlicher Ertragsstandort. Hinweise lassen sich erst bei Bedarf öffnen.
+In „Standort & Pflege“ stehen Lichtbedarf und Hinweise für Plätze unter Bäumen.
+Große Baumwurzeln nicht verletzen, Abstand zum Stamm halten, Bodenfeuchte prüfen.
+
+In jeder Sorte bleiben „Lebensdauer & Schnitt“ und „Fruchtfolge & Standortwechsel“
+zunächst geschlossen. Dort stehen einjährige Nutzung oder mehrjährige Kultur,
+Schnittzeit und Vorgehen, Hinweise zum Umsetzen und Beispiele für die Folgekultur.
+Die Empfehlungen richten sich nach Pflanzenart und gegebenenfalls Tragtyp.
+Bei unbekannten Arten steht ausdrücklich, dass die Zuordnung noch fehlt.
+Fruchtfolgebeispiele sind keine Garantie für die Gesundheit eures Bodens.
+Beetgeschichte, Pflanzenfamilien und Krankheiten immer mitprüfen.
+Eigene Angaben lassen sich unter „Bearbeiten → Pflege & Hinweise“ mit den
+Zeilen Lebensdauer:, Schnittzeit:, Schnitt:, Standortwechsel:, Fruchtfolge:
+hinterlegen. Diese Angaben gehen in der Anzeige den allgemeinen Richtwerten vor.
+
+GARTENPRAXIS ALS VORLAGE
+„Pflanzen → Garten-Praxis“ enthält neben Mulch und Kompost jetzt auch Vorlagen
+für Düngung, Bewässerung, Bodentests, Pflanzenschutz, Fruchtfolge und Schattenplätze.
+Die Anleitung steht unter „Standort & Pflege“, die Dokumentationshilfe unter
+„Sorte & Verwendung“. In den Notizen Datum, Beet, Menge und Beobachtung festhalten.
+„Als persönliche Aufgabe planen“ übernimmt die Vorlage in eine neue Aufgabe;
+Datum und Hinweise vor dem Speichern anpassen. Es entsteht kein Termin allein
+durch das Öffnen der Vorlage. Praxisvorlagen erscheinen nicht als Aussaattermine.
+
+KATALOGERGÄNZUNG 23. OKTOBER 2026
+150 neue Sorten aus Gemüse, Kräutern und Beeren sowie 25 neue Praxisvorlagen.
+Keine neuen Bäume oder Blumen. Der bestehende Familienkatalog enthält damit
+638 Einträge, darunter 40 Gartenpraxis-Einträge. Häufige Sorten werden durch
+belegte Spezialitäten ergänzt. Nicht jede kleine Kulturgruppe erreicht zehn
+Sorten; zusätzliche Namen werden dafür nicht erfunden. Anbauwerte sind
+allgemeine Richtwerte für Mitteleuropa. Das Saatguttütchen und konkrete
+Pflanzenanbieterangaben haben Vorrang; eine sichere Ernte ist nicht garantiert.

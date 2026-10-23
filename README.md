@@ -96,3 +96,14 @@ keine Geheimnisse oder privaten Inhalte. Systemstatus zeigt den Programmstand
 und begrenzte technische Metadaten. Anfragezähler sind kein Euro-/Tokenbudget.
 Private Aufgaben und unveröffentlichte Profile bleiben auch vor dem Superadmin
 verborgen. Kontolöschungen gesperrter Nutzer unterstützt der Betreiber.
+
+
+Die Ergänzung vom 23. Oktober enthält 150 neue Gemüse-, Kräuter- und Beerensorten
+sowie 25 weitere Gartenpraxis-Vorlagen: 638 Einträge in 60 Kultur-/Themengruppen,
+darunter 40 Praxisvorlagen. Keine neuen Bäume oder Blumen. „Schattige Plätze“
+filtert geeignete bestehende Sorten, ohne sie zu duplizieren. Lichte Schattenplätze
+und trockener Vollschatten werden unterschieden; Wurzeln vorhandener Bäume schützen.
+Sortendetails enthalten zunächst geschlossene Bereiche für Lebensdauer und Schnitt
+sowie Standortwechsel und Fruchtfolge. Eigene Pflegeangaben bleiben erhalten.
+Gartenpraxis lässt sich in eine persönliche Aufgabe übernehmen. Kulturwissen ist
+allgemeine Orientierung zur Pflanzenart; Anbieterangaben und Beetgeschichte prüfen.
