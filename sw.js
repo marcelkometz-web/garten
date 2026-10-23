@@ -1,5 +1,5 @@
 // Nur öffentliche Programmdateien. Keine Anmeldung, API-Antworten, Fotos oder Gartendaten cachen.
-const CACHE = 'ramonas-private-8a5edab2-shell-2e3553fb12eb';
+const CACHE = 'ramonas-private-8a5edab2-shell-67a17f11d17f';
 const ASSETS = ["/","/index.html","/impressum.html","/read.html","/help.js","/read.txt","/style.css","/app.js","/manifest.webmanifest","/icon.svg","/icon-192.png","/icon-512.png"];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS.map(path=>new Request(path,{cache:'reload'})))));
