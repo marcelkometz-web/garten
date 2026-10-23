@@ -70,4 +70,18 @@ Foto und separat freigegebenen Wohnort aus. E-Mail, Konto-ID und Gartendaten ble
 ausgeschlossen. Auf privat stellen widerruft künftige Profil- und Fotoabrufe; zuvor
 von anderen gespeicherte Kopien lassen sich nicht zurückholen. Profilfotos sind
 komprimierte JPEGs in privaten Buckets, veröffentlichte Abrufe werden separat geprüft.
-Das Forum und zusätzliche APK-/IPA-Dateien sind auf später verschoben.
+Das private Familienforum, persönliche Aufgaben und das gemeinsame Erntetagebuch stehen unter Gartenleben. Zusätzliche APK-/IPA-Dateien bleiben auf später verschoben.
+
+
+Neu am 23. Oktober: Aufgaben mit Anbauvorschlägen und privater Kalenderdatei,
+Familienforum mit Antworten und Moderation, Erntetagebuch mit komprimierten Fotos
+und getrennte Gartenleben-Sicherungen. Sortendetails bündeln Aussaat, Pflege,
+Nachbarn, Notizen und Fotos in aufklappbaren Abschnitten. Eigene Kontolöschung
+verlangt das aktuelle Passwort, die genaue Bestätigung und gegebenenfalls eine
+Gartenübergabe. Das Superadmin-Zusatzpasswort lässt sich nach frischer Bestätigung
+per Betreiber-E-Mail zurücksetzen. Im entsperrten persönlichen Adminbereich können
+neue Nutzer per E-Mail-Link eingeladen werden; sie wählen ihr eigenes Passwort
+und erhalten normale Mitgliedsrechte. Kein temporäres Passwort per E-Mail.
+Supabase-Standardversand begrenzt Empfänger auf das Projektteam. Für externe
+Empfänger ist eigener SMTP-Zugang erforderlich. Kein kostenpflichtiges Upgrade
+wurde aktiviert. Versandübergabe ist keine Zustellgarantie.

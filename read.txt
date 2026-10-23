@@ -1,5 +1,5 @@
 RAMONAS GARTEN – BEDIENHILFE
-Stand: 22. Oktober 2026
+Stand: 23. Oktober 2026
 
 Privates Familienprojekt für Pflanzen, Beete und Gartennotizen.
 Web-App: https://marcelkometz-web.github.io/newgarten/
@@ -66,7 +66,7 @@ wird nicht veröffentlicht. „Profil löschen“ entfernt Profilangaben und Fot
 das Anmeldekonto und gemeinsame Garteneinträge bleiben bestehen. Bei einem
 Löschfehler wird das Profil zuerst privat gestellt; Hinweise im Fenster beachten.
 Profile und Profilbilder sind keine Bestandteile der gemeinsamen Gartensicherung.
-Ein eigenes Forum ist ein vorgesehener späterer Ausbau, noch keine Funktion.
+Das Familienforum ist unter „Gartenleben“ innerhalb eurer Familie verfügbar.
 
 Der zusätzliche „Persönliche Adminbereich“ ist ausschließlich an das
 Betreiberkonto gebunden. Andere Gartenadmins erhalten darauf keinen Zugriff.
@@ -88,8 +88,8 @@ KI-Zugänge und Garteneinstellungen. Es gibt damit keinen Zugang zum
 persönlichen Bereich des Betreibers. Das eigene primäre Adminkonto und der
 letzte Gartenadmin bleiben erhalten. „Admin-Zusatzpasswort ändern“ widerruft
 die bisherige Freigabe; anschließend erneut entsperren. Ein vergessenes
-Zusatzpasswort muss der Betreiber über die geschützte Serververwaltung
-zurücksetzen; die App zeigt es nie an.
+Zusatzpasswort lässt sich über einen neu angeforderten Bestätigungslink an
+das feste Betreiberkonto zurücksetzen; die App zeigt es nie an.
 
 STARTSEITE UND SUCHE
 Die Startseite bündelt Pflanzensuche, „Gemini fragen“ beziehungsweise „ChatGPT fragen“ und „Tütchen scannen“
@@ -333,3 +333,134 @@ DATUM UND UHRZEIT
 Anzeige: TT.MM.JJJJ / HH:MM:SS, Zeitzone Europe/Berlin. Die Sekunden sind
 kleiner. Die Doppelpunkte blinken im Sekundentakt; bei aktivierter
 Bewegungsreduktion bleiben sie ruhig.
+
+
+GARTENLEBEN: AUFGABEN, FORUM, ERNTE UND NOTIZEN
+Die bisherige Navigation „Notizen“ heißt jetzt „Gartenleben“. Vier große
+Schaltflächen öffnen Meine Aufgaben, Familienforum, Erntetagebuch oder Notizen.
+Listen laden höchstens 20 Einträge pro Seite; „Weitere“ öffnet die nächste Seite.
+Suche und Filter helfen bei größeren Beständen.
+
+MEINE AUFGABEN
+Eigene Aufgaben mit Fälligkeitsdatum, Status, Hinweisen und optionaler Sorte
+oder Beet anlegen. Nur du kannst sie lesen und bearbeiten, auch Gartenadmins
+haben keinen Zugriff. Heute fällige und überfällige offene Aufgaben erscheinen
+auf der Startseite. Abhaken erledigt eine Aufgabe; über den Filter lassen sich
+erledigte Aufgaben wieder öffnen. „Kalenderdatei“ erstellt eine private .ics
+mit genau dieser Aufgabe. Es gibt keine automatische Aufgaben-Synchronisierung
+mit Apple/Google und keine automatischen Push-Erinnerungen.
+Vorschläge entstehen aus geplanten Beetbelegungen und Monatsrichtwerten.
+Wetter, Bodentemperatur und Saatguttütchen selbst prüfen. Erst „Übernehmen“ und
+Speichern erstellt eine persönliche Aufgabe; es werden keine KI-Anfragen ausgelöst.
+
+FAMILIENFORUM
+Thema mit Bereich, Titel und Beitrag anlegen. Andere Familienmitglieder können
+lesen und antworten. Dein Profilname wird beim Erstellen als Autorenanzeige
+gespeichert; ohne Namen steht „Familienmitglied“. Öffentliche Profile geben
+keinen Zugriff auf das Forum. Eigene Beiträge sind bearbeitbar und löschbar.
+Gartenadmins können zusätzlich moderieren, Themen schließen und wieder öffnen.
+Geschlossene Themen erlauben keine neuen oder bearbeiteten Antworten. Das
+Löschen eines Themas entfernt auch seine Antworten. Bitte keine vertraulichen
+Angaben anderer Personen veröffentlichen. Neue Antworten im geöffneten Thema
+sind nach erneutem Öffnen sichtbar; es gibt noch keine Push-Mitteilungen.
+
+ERNTETAGEBUCH
+Ernten mit Datum, Menge, Einheit, Geschmack, Bewertung und optionalem Beet,
+Sorte oder Foto festhalten. Komma als Dezimaltrenner ist möglich. Mengen sind
+größer als 0 mit bis zu drei Nachkommastellen. Das Tagebuch ist für eure Familie
+lesbar; eigene Einträge und von Admins moderierte Einträge sind bearbeitbar.
+Einheiten werden getrennt summiert. Die angezeigte Summe betrifft nur die
+geladenen Einträge der aktuellen Seite, keine vollständige Jahresstatistik.
+Fotos werden vor dem Upload auf höchstens 1280 Pixel und 256 KiB als JPEG
+verkleinert; Metadaten des Originals werden nicht übernommen.
+
+GARTENLEBEN SEPARAT SICHERN
+Unter „Gartenleben“ gibt es „Meine Aufgaben sichern“ sowie „Forum & Ernte sichern“.
+Diese JSON-Dateien sind vom bisherigen Gartenexport getrennt. Der persönliche
+Export enthält nur eigene Aufgaben. Der gemeinsame Export enthält Forum,
+Antworten und Ernten, keine Profile oder privaten Aufgaben. Eine passende Datei
+auswählen, Vorschau prüfen und Ergänzung bestätigen. Persönliche Sicherungen
+kann jedes Konto selbst wieder einlesen; gemeinsame Sicherungen nur Gartenadmins.
+Vorhandene Originaleinträge werden übersprungen und nicht überschrieben.
+Sorten und Beete werden über Namen zugeordnet; fehlende Zuordnungen bleiben leer.
+Importierte Beiträge erhalten das importierende Konto als Autor. Fotos sind
+nur als Verweise enthalten; fehlende oder fremde Dateien werden nicht übernommen.
+Nach dem Löschen und erneuten Anlegen eines Kontos gibt es keinen automatischen
+Zugriff auf den früheren Familiengarten. Mitgliedschaft und Sicherungen müssen
+dann bewusst neu eingerichtet werden.
+
+SORTENDETAILS AUFKLAPPEN
+Sortenauswahl, Teilen, Nachbestellen und Beetstatus bleiben direkt erreichbar.
+Aussaat & Anbau ist zuerst offen. Standort & Pflege, Sorte & Verwendung,
+Nachbarn, Notizen und die Sorten-KI lassen sich einzeln öffnen. Mehrere Bereiche
+können zugleich geöffnet bleiben. Die Notizüberschrift zeigt vorhandenen Text
+an; Notizen speichern weiterhin automatisch. Tütchenfotos werden erst beim
+Aufklappen geladen. Das Schließen-X bleibt beim Scrollen sichtbar.
+
+EIGENES KONTO LÖSCHEN
+„Familie & Konto → Konto & Daten → Eigenes Konto löschen“ öffnen. Auch ohne
+Familienzuordnung ist die Funktion auf der Einrichtungsseite verfügbar.
+Das aktuelle Anmeldepasswort wird serverseitig erneut geprüft. Zusätzlich
+genau KONTO LÖSCHEN eingeben und die Folgen lesen. Du kannst damit nur dein
+eigenes Konto löschen. Eine benötigte Gartenübergabe erfolgt an ein anderes
+Mitglied derselben Familie, ohne persönlichen Superadminzugang. Als letztes
+Mitglied musst du das endgültige Löschen des gesamten Gartens extra bestätigen.
+Profil, eigene Aufgaben, Forumthemen mit Antworten, eigene Antworten, Ernten
+und eigene hochgeladene Fotos werden entfernt. Sitzungen werden widerrufen.
+Bei verbleibenden Mitgliedern bleiben Pflanzen, Beete, Anbauhistorie, Notizen
+und Termine ohne direkten Autoren-Kontoverweis bestehen. Inhalte können noch
+persönliche Textangaben enthalten: vorher bearbeiten/löschen oder Betreiber
+kontaktieren. Fotos aus gemeinsamen Einträgen entfallen, wenn du sie hochgeladen
+hast. Geteilte Dateien, Kalenderkopien und Anbieter-Backups werden durch diese
+Aktion nicht rückwirkend gelöscht. Eine Reaktivierung des Kontos ist nicht vorgesehen.
+Bei einem Dateifehler wird die Löschung abgebrochen; einzelne Fotos können
+bereits entfernt sein. Hinweise lesen und nötigenfalls erneut anmelden.
+
+KOSTENLOSER SUPABASE-TARIF
+Die Funktionen nutzen den bestehenden kostenlosen Tarif innerhalb seiner
+Kontingente. Es wurde kein kostenpflichtiges Upgrade vorgenommen. Der integrierte
+Supabase-Schutz gegen bekannte geleakte Passwörter benötigt Pro oder höher und
+bleibt daher deaktiviert. Das ist ein verbleibender Warnhinweis, kein aktivierter
+Schutz. Optionale KI-API-Kosten sind davon getrennt und richten sich weiterhin
+nach den ausdrücklich eingerichteten Anbieterzugängen.
+
+
+SUPERADMIN-ZUSATZPASSWORT VERGESSEN
+Im persönlichen Adminfenster „Zusatzpasswort vergessen?“ öffnen. Einen neuen
+Bestätigungslink an die bestätigte E-Mail-Adresse deines Betreiberkontos
+anfordern und den neuesten Link innerhalb von zehn Minuten öffnen. Der Link
+führt zur App. Im selben Browserfenster anschließend das neue Zusatzpasswort
+zweimal eingeben. Die App öffnet das Fenster nach der Rückkehr nach Möglichkeit
+automatisch; sonst „Familie & Konto → Persönlichen Adminbereich → Zusatzpasswort
+vergessen?“ und „E-Mail-Link geöffnet – Bestätigung prüfen“ wählen.
+Eine alte Anmeldung nur mit Passwort reicht nicht für den Reset. Der Server
+verlangt eine neue, zeitlich passende E-Mail-Anmeldung und eine gültige Sitzung.
+Nach erfolgreichem Reset sind alte Adminfreigaben ungültig; erneut mit dem
+neuen Zusatzpasswort entsperren. Das normale Anmeldepasswort ändert sich nicht.
+Der Wiederherstellungsnachweis wird nur einmal verwendet. Supabase begrenzt
+den E-Mail-Versand; bei Limits warten. Die Funktion versendet ausschließlich
+auf deinen Knopfdruck an dein fest hinterlegtes Betreiberkonto, keine Passwörter.
+Andere Gartenadmins erhalten damit keinen persönlichen Superadminzugang.
+
+NUTZER PER E-MAIL EINLADEN
+Unter Familie & Konto den persönlichen Superadminbereich mit dem Zusatzpasswort
+entsperren und „Neuen Nutzer per E-Mail einladen“ wählen. Adresse eingeben und
+„Einladungslink senden“ drücken. Nur der Betreiber kann diese Funktion nutzen.
+Die eingeladene Person öffnet den einmaligen, zeitlich begrenzten E-Mail-Link,
+legt ein eigenes Passwort mit mindestens zwölf Zeichen fest und meldet sich
+anschließend neu an. Sie wird als normales Mitglied eurem Familiengarten
+hinzugefügt. Es wird kein temporäres Passwort erzeugt oder per E-Mail versendet.
+Bestehende Konten werden über die Kontoliste freigeschaltet, nicht neu eingeladen.
+
+Einladungen lassen sich vor der Annahme zurückziehen. Das verhindert den
+Gartenzugang über diese Einladung, löscht aber kein angelegtes Anmeldekonto.
+Spätestens nach 24 Stunden ist die Annahme gesperrt; der Supabase-E-Mail-Link
+kann früher ablaufen. Einladungsstatus und Empfängeradresse sind nur im
+persönlichen Adminbereich sichtbar. Die App speichert keine Einladungslinks.
+
+Es gelten maximal zwei Versandversuche pro Stunde und zehn pro Tag; auch
+fehlgeschlagene Versuche zählen. Supabase kann strengere Grenzen setzen.
+Der kostenlose Supabase-Standardversand beschränkt Empfänger auf Mitglieder
+des Supabase-Projektteams. Für Einladungen an weitere Adressen ist ein eigener
+SMTP-Zugang in Supabase Auth nötig. Es wurde kein bezahlter Dienst eingerichtet.
+Eine Erfolgsmeldung bestätigt die Übergabe an Supabase, keine Postfachzustellung.
