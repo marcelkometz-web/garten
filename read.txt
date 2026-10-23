@@ -467,8 +467,8 @@ Eine Erfolgsmeldung bestätigt die Übergabe an Supabase, keine Postfachzustellu
 
 
 SUPERADMIN: FUNKTIONEN, LIMITS UND SICHERHEIT
-Der entsperrte persönliche Bereich ist in sechs Kategorien gegliedert:
-Konten, Funktionen, KI-Limits, Sicherheit, Protokoll und System.
+Der entsperrte persönliche Bereich ist in sieben Kategorien gegliedert:
+Konten, Wartung, Funktionen, KI-Limits, Sicherheit, Protokoll und System.
 Nur das fest zugeordnete Betreiberkonto kann diese Bereiche verwenden.
 Ernannte Gartenadmins erhalten diese Rechte nicht.
 
@@ -545,3 +545,29 @@ belegte Spezialitäten ergänzt. Nicht jede kleine Kulturgruppe erreicht zehn
 Sorten; zusätzliche Namen werden dafür nicht erfunden. Anbauwerte sind
 allgemeine Richtwerte für Mitteleuropa. Das Saatguttütchen und konkrete
 Pflanzenanbieterangaben haben Vorrang; eine sichere Ernte ist nicht garantiert.
+
+
+WEB-APP FÜR WARTUNGSARBEITEN SCHLIESSEN
+„Familie & Konto → Persönlichen Adminbereich entsperren → Wartung“ öffnen.
+Mit „Wartungsmodus einschalten“ wird die App für alle außer dem Betreiberkonto
+geschlossen. Ernannte Admins erhalten dabei keinen Sonderzugang. Sichtbar ist:
+„Wir bearbeiten zurzeit die Web-App. Zugang nur für den Superadmin.“
+Der Modus bleibt eingeschaltet, bis du ihn selbst wieder ausschaltest.
+Nach dem Einbau ist er zunächst aus; die App bleibt normal nutzbar.
+
+Dein Betreiberkonto kann sich auf der Wartungsseite über „Superadmin-Anmeldung“
+weiter anmelden. Oben in deiner App erinnert ein Hinweis an den aktiven Modus.
+„Wartung verwalten“ führt nach Eingabe deines Admin-Zusatzpassworts direkt zum
+Schalter. „Web-App wieder öffnen“ gibt den normalen Zugang wieder frei.
+Das funktioniert auch, wenn dein Betreiberkonto keinem Garten zugeordnet ist.
+Eine abgelaufene zusätzliche Adminfreigabe kann wie gewohnt neu entsperrt werden.
+
+Neue Datenzugriffe sind serverseitig sofort gesperrt. Bereits offene Apps
+zeigen beim nächsten Abgleich (normalerweise innerhalb von 30 Sekunden) die
+Wartungsseite. Andere Personen vorher bitten, ungespeicherte Eingaben zu sichern.
+Gespeicherte Daten, Rollen, Profile und Kalenderlinks werden nicht gelöscht.
+Kalenderabos erhalten vorübergehend einen Nicht-erreichbar-Status und können
+nach dem Öffnen wieder abrufen. Bereits abgerufene Kopien bleiben außerhalb
+der App vorhanden. Impressum und Bedienhilfe bleiben öffentlich erreichbar.
+Ein-/Ausschalten wird im Superadmin-Protokoll vermerkt. Der Wartungsmodus ersetzt
+keine Anmeldung und erweitert deine Leserechte auf private Nutzerinhalte nicht.

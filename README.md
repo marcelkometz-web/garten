@@ -107,3 +107,13 @@ Sortendetails enthalten zunächst geschlossene Bereiche für Lebensdauer und Sch
 sowie Standortwechsel und Fruchtfolge. Eigene Pflegeangaben bleiben erhalten.
 Gartenpraxis lässt sich in eine persönliche Aufgabe übernehmen. Kulturwissen ist
 allgemeine Orientierung zur Pflanzenart; Anbieterangaben und Beetgeschichte prüfen.
+
+
+Unter „Persönlicher Adminbereich → Wartung“ kann ausschließlich das Betreiberkonto
+mit gültigem Admin-Zusatzpasswort die App vorübergehend schließen. Andere Nutzer
+und ernannte Admins sehen „Wir bearbeiten zurzeit die Web-App. Zugang nur für den
+Superadmin.“ Datenbank, Fotos und App-RPCs sperren deren neue Zugriffe serverseitig.
+Der Betreiber kann sich weiter anmelden und wieder öffnen – auch ohne Gartenmitgliedschaft.
+Kalenderabos pausieren mit HTTP 503; Daten, Rollen und Abolinks bleiben erhalten.
+Im Auslieferungszustand bleibt die App geöffnet. Vor dem Schließen ungespeicherte
+Eingaben sichern lassen. Bereits geladene Kopien werden nicht zurückgeholt.
