@@ -1,5 +1,5 @@
 RAMONAS GARTEN – BEDIENHILFE
-Stand: 23. Oktober 2026
+Stand: 26. Oktober 2026
 
 Privates Familienprojekt für Pflanzen, Beete und Gartennotizen.
 Web-App: https://marcelkometz-web.github.io/garten/
@@ -8,8 +8,10 @@ Kontakt: marcelkometz@icloud.com
 
 ANMELDUNG UND FAMILIE
 Jede Person verwendet ein eigenes Konto und bestätigt ihre E-Mail-Adresse.
-Besteht bereits ein Familiengarten, legt ein neues Mitglied keinen zweiten an.
-Die Familienverwaltung fügt das bestätigte Konto unter „Familie & Konto“ hinzu.
+Neue bestätigte Konten warten auf die Freigabe durch den Betreiber.
+Bis dahin bleiben Garteninhalte gesperrt; ein eigener zweiter Garten kann
+nicht angelegt werden. Garten und Rezepte verwenden dieselbe Familienfreigabe.
+Nach der Freigabe „Freigabe prüfen“ wählen oder die App neu laden.
 Auf gemeinsam genutzten Geräten nach der Nutzung abmelden.
 
 WEB-APP INSTALLIEREN
@@ -31,6 +33,8 @@ KI benötigen Internet; private Gartendaten werden nicht offline gespeichert.
 EINSTELLUNGEN NACH ROLLE
 Unter „Familie & Konto“ stehen kompakte Kategorien. Jede Kachel öffnet ein
 Fenster. Das X bleibt beim Scrollen sichtbar; der Hintergrund scrollt nicht.
+Bei ungespeicherten Formulareingaben fragen X und Escape vor dem Verwerfen
+nach. Fehlgeschlagene Speicherversuche behalten die Eingaben im Fenster.
 - Für alle Nutzer: Profil, Meine KI, Design, Wetter, Kalender, App & Gerät,
   Konto & Daten. Profil- und Wettereinstellungen sind persönliche Angaben.
 - Für ernannte Admins zusätzlich: Garten & Beete, Mitglieder, KI-Zugänge,
