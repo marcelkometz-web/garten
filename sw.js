@@ -1,13 +1,13 @@
 // Nur öffentliche Programmdateien. Keine Anmeldung, API-Antworten, Fotos oder Gartendaten cachen.
-const CACHE = 'ramonas-private-f005288a-shell-c28a7f121bf4';
-const ASSETS = ["/newgarten/","/newgarten/index.html","/newgarten/impressum.html","/newgarten/read.html","/newgarten/help.js","/newgarten/read.txt","/newgarten/style.css","/newgarten/app.js","/newgarten/link-apps.js","/newgarten/manifest.webmanifest","/newgarten/icon.svg","/newgarten/icon-192.png","/newgarten/icon-512.png"];
+const CACHE = 'ramonas-private-f005288a-shell-garten-7fe9be767099';
+const ASSETS = ["/garten/","/garten/index.html","/garten/impressum.html","/garten/read.html","/garten/help.js","/garten/read.txt","/garten/style.css","/garten/app.js","/garten/migrate-preferences.js","/garten/link-apps.js","/garten/manifest.webmanifest","/garten/icon.svg","/garten/icon-192.png","/garten/icon-512.png"];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS.map(path=>new Request(path,{cache:'reload'})))));
 });
 self.addEventListener('activate', event => {
   event.waitUntil((async () => {
     const keys = await caches.keys();
-    await Promise.all(keys.filter(key=>key.startsWith('ramonas-private-f005288a-shell-') && key!==CACHE).map(key=>caches.delete(key)));
+    await Promise.all(keys.filter(key=>key.startsWith('ramonas-private-f005288a-shell-garten-') && key!==CACHE).map(key=>caches.delete(key)));
     await self.clients.claim();
   })());
 });

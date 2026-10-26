@@ -2,8 +2,8 @@ RAMONAS GARTEN – BEDIENHILFE
 Stand: 23. Oktober 2026
 
 Privates Familienprojekt für Pflanzen, Beete und Gartennotizen.
-Web-App: https://marcelkometz-web.github.io/newgarten/
-Impressum: https://marcelkometz-web.github.io/newgarten/impressum.html
+Web-App: https://marcelkometz-web.github.io/garten/
+Impressum: https://marcelkometz-web.github.io/garten/impressum.html
 Kontakt: marcelkometz@icloud.com
 
 ANMELDUNG UND FAMILIE
@@ -578,3 +578,12 @@ und dieselbe Freigabe. Die Navigation bleibt im selben Tab; es werden keine
 Anmeldedaten oder Tokens in Links eingefügt. Das Familienforum in Rezepte
 und unter Gartenleben zeigt dieselben Themen und Antworten.
 Geschützte Beiträge verlangen zusätzlich eine noch gültige Sitzung.
+
+NEUE GARTEN-ADRESSE
+Die Garten-App wird unter https://marcelkometz-web.github.io/garten/ geöffnet.
+Vorhandene Browser-Lesezeichen bitte auf diese Adresse umstellen. Bei einer
+alten installierten Verknüpfung kann eine erneute Installation nötig sein.
+Die interne App-Kennung bleibt erhalten; das ist keine alte Startadresse.
+Die vorherige Jahreszeitenauswahl und die Spruch-Historie werden auf demselben
+Gerät einmalig übernommen, sofern noch keine neuen Einstellungen vorhanden sind.
+Anmeldungen, Passwörter und andere Daten werden dabei nicht kopiert oder geändert.
