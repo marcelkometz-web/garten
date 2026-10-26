@@ -1,5 +1,5 @@
 // Nur öffentliche Programmdateien. Keine Anmeldung, API-Antworten, Fotos oder Gartendaten cachen.
-const CACHE = 'ramonas-private-f005288a-shell-garten-872f0c1f2465';
+const CACHE = 'ramonas-private-f005288a-shell-garten-db567c082cff';
 const ASSETS = ["/garten/","/garten/index.html","/garten/impressum.html","/garten/read.html","/garten/help.js","/garten/read.txt","/garten/style.css","/garten/app.js","/garten/migrate-preferences.js","/garten/link-apps.js","/garten/manifest.webmanifest","/garten/icon.svg","/garten/icon-192.png","/garten/icon-512.png"];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS.map(path=>new Request(path,{cache:'reload'})))));
