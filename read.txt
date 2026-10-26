@@ -571,3 +571,10 @@ nach dem Öffnen wieder abrufen. Bereits abgerufene Kopien bleiben außerhalb
 der App vorhanden. Impressum und Bedienhilfe bleiben öffentlich erreichbar.
 Ein-/Ausschalten wird im Superadmin-Protokoll vermerkt. Der Wartungsmodus ersetzt
 keine Anmeldung und erweitert deine Leserechte auf private Nutzerinhalte nicht.
+
+REZEPTE UND GEMEINSAMES FORUM
+Oben auf „Zu den Rezepten“ wechseln. Beide Apps verwenden dieselben Konten
+und dieselbe Freigabe. Die Navigation bleibt im selben Tab; es werden keine
+Anmeldedaten oder Tokens in Links eingefügt. Das Familienforum in Rezepte
+und unter Gartenleben zeigt dieselben Themen und Antworten.
+Geschützte Beiträge verlangen zusätzlich eine noch gültige Sitzung.
