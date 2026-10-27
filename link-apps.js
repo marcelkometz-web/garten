@@ -1,5 +1,5 @@
-// Same-tab navigation preserves the existing shared session without putting
-// credentials or tokens in a URL. This script reads no account information.
+// App links use the common browser login without putting credentials or tokens
+// in a URL. This script reads no account information.
 function addRecipeLinks(){
  for(const bar of document.querySelectorAll('.installation-top')){
   if(bar.querySelector('[data-recipe-switch]'))continue;

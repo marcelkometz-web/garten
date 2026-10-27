@@ -591,3 +591,9 @@ Die interne App-Kennung bleibt erhalten; das ist keine alte Startadresse.
 Die vorherige Jahreszeitenauswahl und die Spruch-Historie werden auf demselben
 Gerät einmalig übernommen, sofern noch keine neuen Einstellungen vorhanden sind.
 Anmeldungen, Passwörter und andere Daten werden dabei nicht kopiert oder geändert.
+
+
+GEMEINSAME ANMELDUNG UND PASSWORT VERGESSEN
+Die gemeinsame Anmeldung für Garten, Rezepte und Abnehmen wird im lokalen Browserspeicher dieses Geräts verwaltet. Nach zehn Minuten ohne Bedienung in diesen Apps endet sie; Abmelden gilt für alle drei Apps. Private Fotos und App-Inhalte werden dafür nicht lokal gespeichert. In getrennten Browsern oder eigenständigen App-Browsern kann eine eigene Anmeldung erforderlich bleiben.
+
+„Passwort vergessen?“ fordert einen Link für die eingetragene E-Mail an. Öffne den neuesten Link im selben Browser. Er führt zum Setzen eines neuen Passworts in diese App zurück. Das Passwort zweimal eingeben; danach wieder anmelden. Das neue Passwort gilt für alle drei Apps. Ein ungültiger, abgelaufener oder im falschen Browser geöffneter Link bietet eine erneute Anforderung an.
