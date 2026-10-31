@@ -1,5 +1,5 @@
 RAMONAS GARTEN – BEDIENHILFE
-Stand: 26. Oktober 2026
+Stand: 31. Oktober 2026
 
 Privates Familienprojekt für Pflanzen, Beete und Gartennotizen.
 Web-App: https://marcelkometz-web.github.io/garten/
@@ -597,3 +597,16 @@ GEMEINSAME ANMELDUNG UND PASSWORT VERGESSEN
 Die gemeinsame Anmeldung für Garten, Rezepte und Abnehmen wird im lokalen Browserspeicher dieses Geräts verwaltet. Nach zehn Minuten ohne Bedienung in diesen Apps endet sie; Abmelden gilt für alle drei Apps. Private Fotos und App-Inhalte werden dafür nicht lokal gespeichert. In getrennten Browsern oder eigenständigen App-Browsern kann eine eigene Anmeldung erforderlich bleiben.
 
 „Passwort vergessen?“ fordert einen Link für die eingetragene E-Mail an. Öffne den neuesten Link im selben Browser. Er führt zum Setzen eines neuen Passworts in diese App zurück. Das Passwort zweimal eingeben; danach wieder anmelden. Das neue Passwort gilt für alle drei Apps. Ein ungültiger, abgelaufener oder im falschen Browser geöffneter Link bietet eine erneute Anforderung an.
+
+
+GEMEINSAME APP: UNSER ZUHAUSE
+https://marcelkometz-web.github.io/abnehmen/zuhause/
+Garten, Rezepte und Ramonas Weg öffnen in einer gemeinsamen Oberfläche. Die Navigation unten wechselt den Bereich; bereits geöffnete Formulare bleiben beim Wechsel erhalten. Vor Schließen oder Neuladen trotzdem speichern. Das Fragezeichen oben öffnet allgemeine Hilfe, alle drei Bedienhilfen und Impressum direkt im Fenster. Der Hintergrund ist dabei gesperrt. Private Tagebuchrechte bleiben unabhängig von Garten- und Rezeptrechten. Rezeptideen öffnen weiterhin auf Wunsch einen eigenen Tab. Nicht sichtbare Bereiche pausieren regelmäßige Datenabfragen.
+
+Die App passt sich an Handy, Tablet und Computer an. Aktuelle Browser unter iOS/iPadOS, Android, Windows, macOS und ChromeOS verwenden. Die Funktionsprüfung erfolgte mit Chromium und WebKit in mehreren Bildschirmgrößen; jede tatsächliche Geräte-/Betriebssystemkombination wurde nicht getestet. Speichern und KI benötigen Internet.
+
+BETREIBER & KONTAKT
+Marcel Kometz, Manfredstr. 15, 47178 Duisburg, Deutschland
+Telefon: +49 152 03397547
+E-Mail: marcelkometz@icloud.com
+Das gemeinsame Impressum mit Datenschutzhinweisen gilt für alle drei Apps.
