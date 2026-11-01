@@ -618,3 +618,16 @@ Die schwebende Leiste bietet „Start“, „Zurück“, „Vorwärts“ und „
 In „Unser Zuhause“ führt „Start“ zur gemeinsamen Startseite; der Verlauf verbindet dort auch die Menüseiten der drei Apps. In einer einzeln geöffneten App führt „Start“ zu deren eigener Übersicht bzw. zum Check-in. Der Verlauf enthält nur feste App- und Seitennamen im Arbeitsspeicher dieses Fensters, keine Gewichte, Fotos, Rezepttitel, Suchtexte oder Kontodaten. Beim Abmelden bzw. Schließen des Fensters wird er verworfen. Er übernimmt nicht den allgemeinen Browserverlauf.
 
 Während einer Speicherung sind die Schaltflächen vorübergehend gesperrt. Offene App-Fenster und die Bildschirmtastatur werden bei der Anzeige berücksichtigt. Ungespeicherte Eingaben bleiben beim Seitenwechsel erhalten, sofern die jeweilige App sie dafür behalten kann. Andernfalls weist die App darauf hin, zuerst zu speichern; sie verwirft den Entwurf nicht still.
+
+WOCHENPLAN, ERNTE UND VERSCHLÜSSELTE SICHERUNGEN
+📅 Im Menü findest du den gemeinsamen Wochenplan für Essen, Training und freiwillige Wiegetermine. Er ist ausschließlich für die beiden freigeschalteten Tagebuchkonten sichtbar. Rezeptzutaten werden nach Mengen und Einheiten zur Einkaufsliste zusammengefasst; offene Mengen werden nicht geschätzt.
+🌱 Die Rezeptideen berücksichtigen passende, ausdrücklich eingetragene Ernte der letzten sieben Tage. Ein Ernteeintrag beweist keinen noch vorhandenen oder frischen Vorrat.
+🔐 Garten- und Gartenleben-Sicherungen werden mit einem eigenen Passwort verschlüsselt heruntergeladen. Das Passwort wird nicht gespeichert und kann nicht zurückgesetzt werden. Beim Import wird erst entschlüsselt und geprüft, danach die vorhandene Vorschau mit Bestätigung verwendet. Alte JSON-Dateien bleiben lesbar. Garten-Sicherungen enthalten die im Sicherungsdialog genannten Daten; Fotoverweise ersetzen keine gesicherten Bilddateien.
+
+DÖRRAUTOMAT FÜR EURE ERNTE
+🌬 Im Menü und in der unteren Leiste öffnet Dörrautomat eine eigene Übersicht. Kategorien und Einträge sind aufklappbar. Suche zum Beispiel nach Feige, Chili oder Peperoni. Temperatur, Zeitbereich, Vorbereitung, Trockenprobe und Quellen werden angezeigt.
+Euer Gerät ist der Arendo 306526 mit acht Einschüben. Angegebene Zeiten sind Richtbereiche. Gerät, Beladung und Schnittstärke beeinflussen das Ergebnis; ein weiches Ergebnis ist keine automatische Haltbarkeitsfreigabe. Für einzelne Trocknungsgrade werden keine unbelegten Stunden erfunden.
+
+EIGENES SAATGUT GEWINNEN
+🌱 Im Menü öffnet Eigenes Saatgut einen aufklappbaren Leitfaden mit 14 Kultur-Anleitungen. Samenfestigkeit wird nicht geraten. F1, Kreuzungen und zweijährige Kulturen haben eigene Hinweise. Obstkerne ergeben meist keine sortenechte Kopie; Saatgut wird nicht wie Lebensmittel heiß gedörrt. Quellen stehen jeweils dabei.
+Der Katalog enthält 200 zusätzlich belegte Sorten (100 Obst und 100 Gemüse). Nicht geprüfte Kulturzeiten bleiben offen.
