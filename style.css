@@ -159,6 +159,8 @@ input[type=checkbox]{accent-color:var(--accent)}
 .auth-card>.season-shortcut{margin:18px 12px 0 0}
 .toast{background:var(--accent);color:var(--on-accent)}
 .toast.error{background:var(--danger-bg);color:var(--danger);border:1px solid var(--danger-line)}
+/* Status messages contain text only; keep the controls beneath them tappable. */
+.notifications>.toast{pointer-events:none}
 .callout{color:var(--warning-ink)}
 .empty-state{background:var(--paper);border-color:var(--line)}
 .month-checks input:checked+span{color:var(--accent)}
