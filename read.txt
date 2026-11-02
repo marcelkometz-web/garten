@@ -34,7 +34,9 @@ EINSTELLUNGEN NACH ROLLE
 Unter „Familie & Konto“ stehen kompakte Kategorien. Jede Kachel öffnet ein
 Fenster. Das X bleibt beim Scrollen sichtbar; der Hintergrund scrollt nicht.
 Bei ungespeicherten Formulareingaben fragen X und Escape vor dem Verwerfen
-nach. Fehlgeschlagene Speicherversuche behalten die Eingaben im Fenster.
+nach. Während einer laufenden Formularaktion bleiben X und Escape gesperrt,
+bis die Aktion abgeschlossen ist. Fehlgeschlagene Speicherversuche behalten
+die Eingaben im Fenster.
 - Für alle Nutzer: Profil, Meine KI, Design, Wetter, Kalender, App & Gerät,
   Konto & Daten. Profil- und Wettereinstellungen sind persönliche Angaben.
 - Für ernannte Admins zusätzlich: Garten & Beete, Mitglieder, KI-Zugänge,
@@ -236,11 +238,13 @@ Bei GPT-6 Astra steht in jeder Auswahl:
 „Hoher Token- und Kostenverbrauch möglich. Nur für wichtige Fragen nutzen.“
 Verfügbarkeit und Kosten hängen vom API-Projekt ab.
 
-Nur die Familienverwaltung hinterlegt die gemeinsamen API-Schlüssel:
+Nur die Familienverwaltung hinterlegt oder entfernt gemeinsame API-Schlüssel:
 1. „Familie & Konto → KI-Zugänge“ öffnen.
-2. Unter „Gemeinsamen KI-Zugang einrichten“ OpenAI oder Gemini wählen.
-3. Den zugehörigen API-Schlüssel eintragen und „Schlüssel speichern & prüfen“
-   drücken. Für den anderen Anbieter bei Bedarf wiederholen.
+2. „KI-Zugänge in Zuhause verwalten“ öffnet die zentrale Verwaltung in einem
+   neuen Tab. Alternativ in Zuhause „KI-Zugänge verwalten“ wählen.
+3. Das aktuelle App-Passwort erneut bestätigen, OpenAI oder Gemini auswählen
+   und den Schlüssel dort speichern oder entfernen. Die zusätzliche Freigabe
+   bleibt höchstens vier Minuten im Arbeitsspeicher.
 4. Jedes Mitglied wählt anschließend unter „Meine KI“ seinen Anbieter.
 „Als Familienstandard verwenden“ ändert nur die Vorgabe für Mitglieder ohne
 eigene Auswahl. Ein eingerichteter Zugang genügt je Anbieter für eure Familie.
